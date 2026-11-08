@@ -1,0 +1,53 @@
+{
+  "common": {
+    "appName": "Découvreur de Parfum de Luxe",
+    "language": "Français",
+    "loading": "Chargement...",
+    "currency": "TND"
+  },
+  "landing": {
+    "heroTitle": "Découvrez votre signature olfactive",
+    "heroSubtitle": "Une expérience immersive pour révéler le parfum qui sublime votre personnalité en seulement 30 secondes.",
+    "ctaButton": "Découvrir Votre Scent",
+    "storeInfoTitle": "Notre Boutique",
+    "operatingHours": "Horaires d'ouverture",
+    "location": "Adresse",
+    "social": "Suivez-nous"
+  },
+  "quiz": {
+    "accuracyPrefix": "Précision de la recommandation :",
+    "accuracySuffix": "Répondez à plus de questions pour affiner",
+    "back": "Retour",
+    "skipAndShowResults": "Voir les résultats maintenant",
+    "question": "Question",
+    "of": "sur"
+  },
+  "results": {
+    "headline": "Vos créations olfactives idéales",
+    "subheadline": "Sélectionnées sur-mesure selon vos préférences sensorielles et vos désirs.",
+    "topMatches": "Vos Meilleurs Choix",
+    "otherMatches": "Autres Parfums Compatibles",
+    "matchBadge": "Correspondance",
+    "retake": "Trouver un autre parfum",
+    "shelfLocation": "Emplacement en rayon :",
+    "emptyNotice": "Aucun parfum ne correspond exactement à tous vos critères."
+  },
+  "kiosk": {
+    "startOver": "Nouveau Client / Recommencer",
+    "saveToPhone": "Sauvegarder sur votre téléphone (QR)",
+    "scanPrompt": "Scannez ce QR code avec votre téléphone pour emporter vos résultats et les présenter à notre conseiller",
+    "doneScanning": "Terminé - Nouveau Client",
+    "shelfBadge": "Emplacement en boutique :",
+    "idleWarning": "Réinitialisation automatique imminente pour inactivité",
+    "pinPrompt": "Entrez le code PIN pour déverrouiller"
+  },
+  "admin": {
+    "title": "Administration Parfumerie",
+    "tags": "Attributs & Notes",
+    "perfumes": "Catalogue Parfums",
+    "quizBuilder": "Éditeur de Quiz",
+    "settings": "Paramètres Boutique",
+    "analytics": "Statistiques",
+    "logout": "Déconnexion"
+  }
+}

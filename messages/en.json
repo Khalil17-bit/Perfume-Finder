@@ -1,0 +1,53 @@
+{
+  "common": {
+    "appName": "Luxury Perfume Finder",
+    "language": "English",
+    "loading": "Loading...",
+    "currency": "USD"
+  },
+  "landing": {
+    "heroTitle": "Discover Your Scent Signature",
+    "heroSubtitle": "An elevated fragrance discovery experience tailored to your unique taste and mood in just 30 seconds.",
+    "ctaButton": "Discover Your Scent",
+    "storeInfoTitle": "Boutique Information",
+    "operatingHours": "Opening Hours",
+    "location": "Our Location",
+    "social": "Connect With Us"
+  },
+  "quiz": {
+    "accuracyPrefix": "Recommendation Accuracy:",
+    "accuracySuffix": "Answer more questions for higher precision",
+    "back": "Back",
+    "skipAndShowResults": "Show Results Now",
+    "question": "Question",
+    "of": "of"
+  },
+  "results": {
+    "headline": "Your Tailored Fragrance Matches",
+    "subheadline": "Carefully selected and ranked according to your personal sensory profile.",
+    "topMatches": "Top Fragrance Matches",
+    "otherMatches": "Other Compatible Perfumes",
+    "matchBadge": "Match",
+    "retake": "Find Another Perfume",
+    "shelfLocation": "Shelf Location:",
+    "emptyNotice": "No perfumes strictly matched all of your selected criteria."
+  },
+  "kiosk": {
+    "startOver": "Start Over / New Customer",
+    "saveToPhone": "Save Results to Your Phone (QR)",
+    "scanPrompt": "Scan this code with your phone camera to take your recommendations with you and show our fragrance specialist",
+    "doneScanning": "Done Scanning - Start New Customer",
+    "shelfBadge": "In-Store Shelf Location:",
+    "idleWarning": "Session will reset shortly due to inactivity",
+    "pinPrompt": "Enter 4-digit PIN to exit kiosk mode"
+  },
+  "admin": {
+    "title": "Fragrance Store Admin",
+    "tags": "Tags & Characteristics",
+    "perfumes": "Perfume Catalog",
+    "quizBuilder": "Dynamic Quiz Builder",
+    "settings": "Store Settings",
+    "analytics": "Analytics & Insights",
+    "logout": "Sign Out"
+  }
+}

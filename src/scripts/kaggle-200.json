@@ -1,0 +1,5115 @@
+[
+  {
+    "id": "kgl_perfume_001",
+    "name": "Sauvage Edt",
+    "brand": "Dior",
+    "category": "Aromatic Fougere",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Dior تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Dior, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Dior, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 197,
+    "shelf_location": "Zone B-02",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_002",
+    "name": "Sauvage Edp",
+    "brand": "Dior",
+    "category": "Aromatic Fougere",
+    "target_audience": "Male",
+    "longevity": "Very Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Dior تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Dior, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Dior, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 214,
+    "shelf_location": "Zone C-03",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_003",
+    "name": "Sauvage Parfum",
+    "brand": "Dior",
+    "category": "Aromatic Fougere",
+    "target_audience": "Male",
+    "longevity": "Very Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Dior تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Dior, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Dior, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 231,
+    "shelf_location": "Zone D-04",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_004",
+    "name": "Sauvage Elixir",
+    "brand": "Dior",
+    "category": "Aromatic Fougere",
+    "target_audience": "Male",
+    "longevity": "Very Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Dior تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Dior, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Dior, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 248,
+    "shelf_location": "Zone E-05",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_005",
+    "name": "Homme Intense",
+    "brand": "Dior",
+    "category": "Floriental",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dior, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dior, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 265,
+    "shelf_location": "Zone F-06",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_006",
+    "name": "Homme Parfum",
+    "brand": "Dior",
+    "category": "Floriental",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dior, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dior, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 282,
+    "shelf_location": "Zone VIP-07",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_007",
+    "name": "J'Adore Edp",
+    "brand": "Dior",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dior, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dior, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 299,
+    "shelf_location": "Zone A-08",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_008",
+    "name": "Aventus",
+    "brand": "Creed",
+    "category": "Woody Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Creed تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Creed offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Creed delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 316,
+    "shelf_location": "Zone B-09",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_009",
+    "name": "Aventus For Her",
+    "brand": "Creed",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Creed, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Creed, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 333,
+    "shelf_location": "Zone C-10",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_010",
+    "name": "Silver Mountain Water",
+    "brand": "Creed",
+    "category": "Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Creed تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Creed offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Creed delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 350,
+    "shelf_location": "Zone D-11",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_011",
+    "name": "Green Irish Tweed",
+    "brand": "Creed",
+    "category": "Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Creed تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Creed, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Creed, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 367,
+    "shelf_location": "Zone E-12",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_012",
+    "name": "Millésime Impérial",
+    "brand": "Creed",
+    "category": "Fruity Floral",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Creed, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Creed, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 384,
+    "shelf_location": "Zone F-01",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_013",
+    "name": "Original Vetiver",
+    "brand": "Creed",
+    "category": "Woody Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Creed تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Creed, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Creed, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 401,
+    "shelf_location": "Zone VIP-02",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_014",
+    "name": "Original Santal",
+    "brand": "Creed",
+    "category": "Woody Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Creed تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Creed, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Creed, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 418,
+    "shelf_location": "Zone A-03",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_015",
+    "name": "Imagination",
+    "brand": "Louis Vuitton",
+    "category": "Woody Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Louis Vuitton تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Louis Vuitton, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Louis Vuitton, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 435,
+    "shelf_location": "Zone B-04",
+    "is_available": true,
+    "is_featured": true,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_016",
+    "name": "L'Immensité",
+    "brand": "Louis Vuitton",
+    "category": "Aromatic Fougere",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Louis Vuitton تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Louis Vuitton, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Louis Vuitton, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 452,
+    "shelf_location": "Zone C-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_017",
+    "name": "Afternoon Swim",
+    "brand": "Louis Vuitton",
+    "category": "Citrus Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Louis Vuitton, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Louis Vuitton, bringing effortless daytime radiance."
+    },
+    "price": 469,
+    "shelf_location": "Zone D-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_018",
+    "name": "Attrape-Rêves",
+    "brand": "Louis Vuitton",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Louis Vuitton, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Louis Vuitton, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 186,
+    "shelf_location": "Zone E-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_019",
+    "name": "Heures D'Absence",
+    "brand": "Louis Vuitton",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Louis Vuitton, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Louis Vuitton, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 203,
+    "shelf_location": "Zone F-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_020",
+    "name": "Le Jour Se Lève",
+    "brand": "Louis Vuitton",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Louis Vuitton, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Louis Vuitton, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 220,
+    "shelf_location": "Zone VIP-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_021",
+    "name": "Rose Des Vents",
+    "brand": "Louis Vuitton",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Louis Vuitton, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Louis Vuitton, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 237,
+    "shelf_location": "Zone A-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_022",
+    "name": "Black Orchid Edp",
+    "brand": "Tom Ford",
+    "category": "Oriental Floral",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Tom Ford, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Tom Ford, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 254,
+    "shelf_location": "Zone B-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_023",
+    "name": "Black Orchid Edt",
+    "brand": "Tom Ford",
+    "category": "Oriental Floral",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Tom Ford, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Tom Ford, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 271,
+    "shelf_location": "Zone C-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_024",
+    "name": "Tobacco Vanille Edp",
+    "brand": "Tom Ford",
+    "category": "Oriental Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Tom Ford تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Tom Ford offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Tom Ford delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 288,
+    "shelf_location": "Zone D-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_025",
+    "name": "Lost Cherry Edp",
+    "brand": "Tom Ford",
+    "category": "Oriental Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Tom Ford تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Tom Ford offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Tom Ford delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 305,
+    "shelf_location": "Zone E-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_026",
+    "name": "Velvet Orchid Edp",
+    "brand": "Tom Ford",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Tom Ford, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Tom Ford, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 322,
+    "shelf_location": "Zone F-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_027",
+    "name": "Fucking Fabulous Edp",
+    "brand": "Tom Ford",
+    "category": "Oriental Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Tom Ford تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Tom Ford, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Tom Ford, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 339,
+    "shelf_location": "Zone VIP-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_028",
+    "name": "Oud Wood Edp",
+    "brand": "Tom Ford",
+    "category": "Woody Oriental",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Tom Ford تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Tom Ford offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Tom Ford delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 356,
+    "shelf_location": "Zone A-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_029",
+    "name": "Le Male",
+    "brand": "Jean Paul Gaultier",
+    "category": "Amber Spicy",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Jean Paul Gaultier, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 373,
+    "shelf_location": "Zone B-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_030",
+    "name": "Ultra Male",
+    "brand": "Jean Paul Gaultier",
+    "category": "Amber Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Jean Paul Gaultier, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 390,
+    "shelf_location": "Zone C-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_031",
+    "name": "Le Male Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "category": "Amber Woody",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Jean Paul Gaultier, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 407,
+    "shelf_location": "Zone D-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_032",
+    "name": "Le Beau",
+    "brand": "Jean Paul Gaultier",
+    "category": "Woody Aromatic",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Jean Paul Gaultier تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Jean Paul Gaultier, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Jean Paul Gaultier, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 424,
+    "shelf_location": "Zone E-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_033",
+    "name": "Le Beau Le Parfum",
+    "brand": "Jean Paul Gaultier",
+    "category": "Woody Amber",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Jean Paul Gaultier, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 441,
+    "shelf_location": "Zone F-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_034",
+    "name": "Le Beau Paradise Garden",
+    "brand": "Jean Paul Gaultier",
+    "category": "Woody Watery",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Jean Paul Gaultier تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Jean Paul Gaultier offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Jean Paul Gaultier delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 458,
+    "shelf_location": "Zone VIP-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious"
+    ]
+  },
+  {
+    "id": "kgl_perfume_035",
+    "name": "Le Male In The Navy",
+    "brand": "Jean Paul Gaultier",
+    "category": "Aromatic Fougere",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Jean Paul Gaultier تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Jean Paul Gaultier, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Jean Paul Gaultier, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 475,
+    "shelf_location": "Zone A-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_036",
+    "name": "Libre Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Floral Amber",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Yves Saint Laurent, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 192,
+    "shelf_location": "Zone B-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_037",
+    "name": "Libre Intense Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Floral Amber",
+    "target_audience": "Female",
+    "longevity": "Very Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Yves Saint Laurent, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 209,
+    "shelf_location": "Zone C-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_038",
+    "name": "Libre L'Eau Nue Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Yves Saint Laurent, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Yves Saint Laurent, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 226,
+    "shelf_location": "Zone D-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_039",
+    "name": "Mon Paris Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Yves Saint Laurent, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Yves Saint Laurent, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 243,
+    "shelf_location": "Zone E-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_040",
+    "name": "Mon Paris Intensement Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Yves Saint Laurent, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Yves Saint Laurent, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 260,
+    "shelf_location": "Zone F-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_041",
+    "name": "Black Opium Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Ambery Gourmand",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Yves Saint Laurent, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 277,
+    "shelf_location": "Zone VIP-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_042",
+    "name": "Black Opium Intense Edp",
+    "brand": "Yves Saint Laurent",
+    "category": "Ambery Gourmand",
+    "target_audience": "Female",
+    "longevity": "Very Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Yves Saint Laurent, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 294,
+    "shelf_location": "Zone A-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_043",
+    "name": "Stronger With You Edt",
+    "brand": "Giorgio Armani",
+    "category": "Oriental Fougere",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Giorgio Armani تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Giorgio Armani, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Giorgio Armani, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 311,
+    "shelf_location": "Zone B-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_044",
+    "name": "Stronger With You Intensely Edp",
+    "brand": "Giorgio Armani",
+    "category": "Oriental Spicy",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Giorgio Armani تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Giorgio Armani offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Giorgio Armani delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 328,
+    "shelf_location": "Zone C-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_045",
+    "name": "Stronger With You Absolutely Edp",
+    "brand": "Giorgio Armani",
+    "category": "Amber Woody",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Giorgio Armani, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 345,
+    "shelf_location": "Zone D-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_046",
+    "name": "Stronger With You Leather Edp",
+    "brand": "Giorgio Armani",
+    "category": "Leather",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "تحفة شرقية فاخرة تتوجها نفحات العود الملكي والجلود المدخنة لهيبة مطلقة وسحر لا يضاهى في المناسبات الكبرى.",
+      "fr": "Un chef-d’œuvre oriental majestueux sublimé par le oud royal et des accords cuirés intenses pour les grandes occasions.",
+      "en": "A majestic oriental signature from Giorgio Armani, enriched with royal oud and smoky leather for unforgettable grandeur."
+    },
+    "price": 362,
+    "shelf_location": "Zone E-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_mysterious",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_047",
+    "name": "Stronger With You Oud Edp",
+    "brand": "Giorgio Armani",
+    "category": "Woody Oriental",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Giorgio Armani تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Giorgio Armani offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Giorgio Armani delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 379,
+    "shelf_location": "Zone F-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_048",
+    "name": "Stronger With You Only Edp",
+    "brand": "Giorgio Armani",
+    "category": "Floriental",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Giorgio Armani, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Giorgio Armani, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 396,
+    "shelf_location": "Zone VIP-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_049",
+    "name": "Stronger With You Freeze Edp",
+    "brand": "Giorgio Armani",
+    "category": "Aromatic Aquatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Giorgio Armani, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Giorgio Armani, bringing effortless daytime radiance."
+    },
+    "price": 413,
+    "shelf_location": "Zone A-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_050",
+    "name": "Delina Edp",
+    "brand": "Parfums de Marly",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Parfums de Marly, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Parfums de Marly, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 430,
+    "shelf_location": "Zone B-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_051",
+    "name": "Delina Exclusif Edp",
+    "brand": "Parfums de Marly",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Parfums de Marly, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Parfums de Marly, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 447,
+    "shelf_location": "Zone C-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_052",
+    "name": "Delina La Rosée Edp",
+    "brand": "Parfums de Marly",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Parfums de Marly, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Parfums de Marly, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 464,
+    "shelf_location": "Zone D-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_053",
+    "name": "Valaya Edp",
+    "brand": "Parfums de Marly",
+    "category": "Floral Musky Woody",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Parfums de Marly, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Parfums de Marly, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 181,
+    "shelf_location": "Zone E-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_054",
+    "name": "Valaya Exclusif Edp",
+    "brand": "Parfums de Marly",
+    "category": "Floral Musky Woody",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Parfums de Marly, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Parfums de Marly, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 198,
+    "shelf_location": "Zone F-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_055",
+    "name": "Castley Edp",
+    "brand": "Parfums de Marly",
+    "category": "Woody Floral",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Parfums de Marly, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Parfums de Marly, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 215,
+    "shelf_location": "Zone VIP-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_056",
+    "name": "Palatine Edp",
+    "brand": "Parfums de Marly",
+    "category": "Woody Fruity",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Parfums de Marly تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Parfums de Marly offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Parfums de Marly delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 232,
+    "shelf_location": "Zone A-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_057",
+    "name": "Accento",
+    "brand": "Xerjoff",
+    "category": "Chypre Floral Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Xerjoff, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Xerjoff, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 249,
+    "shelf_location": "Zone B-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_058",
+    "name": "Mefisto Gentiluomo",
+    "brand": "Xerjoff",
+    "category": "Woody Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Xerjoff تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Xerjoff, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Xerjoff, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 266,
+    "shelf_location": "Zone C-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_059",
+    "name": "Erba Pura",
+    "brand": "Xerjoff",
+    "category": "Fruity Musk",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Xerjoff تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Xerjoff offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Xerjoff delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 283,
+    "shelf_location": "Zone D-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_060",
+    "name": "More Than Words",
+    "brand": "Xerjoff",
+    "category": "Floral Oriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Xerjoff, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Xerjoff, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 300,
+    "shelf_location": "Zone E-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_061",
+    "name": "Naxos",
+    "brand": "Xerjoff",
+    "category": "Oriental Fougere Gourmand",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Xerjoff تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Xerjoff, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Xerjoff, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 317,
+    "shelf_location": "Zone F-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_062",
+    "name": "Starlight",
+    "brand": "Xerjoff",
+    "category": "Gourmand Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Xerjoff, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 334,
+    "shelf_location": "Zone VIP-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_063",
+    "name": "Wardasina",
+    "brand": "Xerjoff",
+    "category": "Woody Floral",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Xerjoff, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Xerjoff, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 351,
+    "shelf_location": "Zone A-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_064",
+    "name": "Paradoxe Eau De Parfum",
+    "brand": "Prada",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Prada, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Prada, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 368,
+    "shelf_location": "Zone B-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_065",
+    "name": "Paradoxe Intense Eau De Parfum",
+    "brand": "Prada",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Prada, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Prada, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 385,
+    "shelf_location": "Zone C-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_066",
+    "name": "Paradoxe Virtual Flower Eau De Parfum",
+    "brand": "Prada",
+    "category": "Floral Fruity",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Prada, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Prada, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 402,
+    "shelf_location": "Zone D-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_067",
+    "name": "Paradoxe Radical Essence Parfum",
+    "brand": "Prada",
+    "category": "Amber Woody",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Prada, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 419,
+    "shelf_location": "Zone E-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_068",
+    "name": "Luna Rossa Eau De Parfum",
+    "brand": "Prada",
+    "category": "Aromatic Fougere",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Prada تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Prada, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Prada, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 436,
+    "shelf_location": "Zone F-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_069",
+    "name": "Luna Rossa Ocean Eau De Parfum",
+    "brand": "Prada",
+    "category": "Aquatic Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Prada, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Prada, bringing effortless daytime radiance."
+    },
+    "price": 453,
+    "shelf_location": "Zone VIP-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_070",
+    "name": "Luna Rossa Carbon Eau De Parfum",
+    "brand": "Prada",
+    "category": "Woody Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Prada تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Prada, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Prada, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 470,
+    "shelf_location": "Zone A-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_071",
+    "name": "Terre D'Hermès Edt",
+    "brand": "Hermès",
+    "category": "Woody Citrus",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Hermès, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Hermès, bringing effortless daytime radiance."
+    },
+    "price": 187,
+    "shelf_location": "Zone B-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_072",
+    "name": "Terre D'Hermès Edp",
+    "brand": "Hermès",
+    "category": "Woody Citrus",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Hermès, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Hermès, bringing effortless daytime radiance."
+    },
+    "price": 204,
+    "shelf_location": "Zone C-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_073",
+    "name": "Terre D'Hermès Eau Très Fraîche",
+    "brand": "Hermès",
+    "category": "Woody Citrus",
+    "target_audience": "Men",
+    "longevity": "Light",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Hermès, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Hermès, bringing effortless daytime radiance."
+    },
+    "price": 221,
+    "shelf_location": "Zone D-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_074",
+    "name": "Terre D'Hermès Eau Givrée",
+    "brand": "Hermès",
+    "category": "Woody Citrus",
+    "target_audience": "Men",
+    "longevity": "Light",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Hermès, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Hermès, bringing effortless daytime radiance."
+    },
+    "price": 238,
+    "shelf_location": "Zone E-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_075",
+    "name": "H24 Edt",
+    "brand": "Hermès",
+    "category": "Aromatic Green",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Hermès تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Hermès offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Hermès delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 255,
+    "shelf_location": "Zone F-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_076",
+    "name": "H24 Herbes Vives Edp",
+    "brand": "Hermès",
+    "category": "Aromatic Fougere",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Hermès تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Hermès, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Hermès, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 272,
+    "shelf_location": "Zone VIP-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_077",
+    "name": "Un Jardin Sur Le Nil Edt",
+    "brand": "Hermès",
+    "category": "Green Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Light",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Hermès تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Hermès offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Hermès delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 289,
+    "shelf_location": "Zone A-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_subtle",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_078",
+    "name": "The One Edp",
+    "brand": "Dolce & Gabbana",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dolce & Gabbana, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dolce & Gabbana, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 306,
+    "shelf_location": "Zone B-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_079",
+    "name": "The One Edp Intense",
+    "brand": "Dolce & Gabbana",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dolce & Gabbana, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dolce & Gabbana, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 323,
+    "shelf_location": "Zone C-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_080",
+    "name": "The Only One Edp",
+    "brand": "Dolce & Gabbana",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dolce & Gabbana, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dolce & Gabbana, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 340,
+    "shelf_location": "Zone D-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_081",
+    "name": "The Only One 2 Edp",
+    "brand": "Dolce & Gabbana",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dolce & Gabbana, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dolce & Gabbana, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 357,
+    "shelf_location": "Zone E-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_082",
+    "name": "Devotion Edp",
+    "brand": "Dolce & Gabbana",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dolce & Gabbana, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dolce & Gabbana, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 374,
+    "shelf_location": "Zone F-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_083",
+    "name": "Devotion Edp Intense",
+    "brand": "Dolce & Gabbana",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Dolce & Gabbana, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Dolce & Gabbana, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 391,
+    "shelf_location": "Zone VIP-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_084",
+    "name": "Light Blue Edt",
+    "brand": "Dolce & Gabbana",
+    "category": "Fruity Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Dolce & Gabbana, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Dolce & Gabbana, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 408,
+    "shelf_location": "Zone A-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_085",
+    "name": "Good Girl",
+    "brand": "Carolina Herrera",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Carolina Herrera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Carolina Herrera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 425,
+    "shelf_location": "Zone B-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_086",
+    "name": "Good Girl Blush",
+    "brand": "Carolina Herrera",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Carolina Herrera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Carolina Herrera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 442,
+    "shelf_location": "Zone C-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_087",
+    "name": "Good Girl Supreme",
+    "brand": "Carolina Herrera",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Carolina Herrera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Carolina Herrera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 459,
+    "shelf_location": "Zone D-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_088",
+    "name": "Very Good Girl",
+    "brand": "Carolina Herrera",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Carolina Herrera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Carolina Herrera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 476,
+    "shelf_location": "Zone E-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_089",
+    "name": "Very Good Girl Elixir",
+    "brand": "Carolina Herrera",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Carolina Herrera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Carolina Herrera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 193,
+    "shelf_location": "Zone F-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_090",
+    "name": "212 Vip",
+    "brand": "Carolina Herrera",
+    "category": "Woody Spicy",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Carolina Herrera تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Carolina Herrera, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Carolina Herrera, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 210,
+    "shelf_location": "Zone VIP-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_091",
+    "name": "212 Vip Black",
+    "brand": "Carolina Herrera",
+    "category": "Amber Spicy",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Carolina Herrera, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 227,
+    "shelf_location": "Zone A-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_092",
+    "name": "Eros Parfum",
+    "brand": "Versace",
+    "category": "Woody Aromatic",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Versace تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Versace, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Versace, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 244,
+    "shelf_location": "Zone B-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_093",
+    "name": "Eros Flame",
+    "brand": "Versace",
+    "category": "Woody Spicy",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Versace تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Versace, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Versace, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 261,
+    "shelf_location": "Zone C-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_094",
+    "name": "Eros Energy",
+    "brand": "Versace",
+    "category": "Citrus Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Versace, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Versace, bringing effortless daytime radiance."
+    },
+    "price": 278,
+    "shelf_location": "Zone D-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_095",
+    "name": "Dylan Blue Pour Homme",
+    "brand": "Versace",
+    "category": "Woody Aquatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Versace, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Versace, bringing effortless daytime radiance."
+    },
+    "price": 295,
+    "shelf_location": "Zone E-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_096",
+    "name": "Man Eau Fraiche",
+    "brand": "Versace",
+    "category": "Woody Aquatic",
+    "target_audience": "Men",
+    "longevity": "Light",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Versace, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Versace, bringing effortless daytime radiance."
+    },
+    "price": 312,
+    "shelf_location": "Zone F-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_097",
+    "name": "Pour Homme",
+    "brand": "Versace",
+    "category": "Citrus Aromatic",
+    "target_audience": "Men",
+    "longevity": "Light",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Versace, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Versace, bringing effortless daytime radiance."
+    },
+    "price": 329,
+    "shelf_location": "Zone VIP-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_098",
+    "name": "Crystal Noir",
+    "brand": "Versace",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Versace, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Versace, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 346,
+    "shelf_location": "Zone A-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_099",
+    "name": "Donna Born In Roma Edp",
+    "brand": "Valentino",
+    "category": "Floral Woody",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Valentino, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Valentino, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 363,
+    "shelf_location": "Zone B-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_100",
+    "name": "Donna Born In Roma Intense Edp",
+    "brand": "Valentino",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Valentino, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Valentino, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 380,
+    "shelf_location": "Zone C-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_101",
+    "name": "Donna Born In Roma Coral Fantasy Edp",
+    "brand": "Valentino",
+    "category": "Fruity Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Valentino, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Valentino, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 397,
+    "shelf_location": "Zone D-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_102",
+    "name": "Donna Born In Roma Green Stravaganza Edp",
+    "brand": "Valentino",
+    "category": "Green Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Valentino, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Valentino, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 414,
+    "shelf_location": "Zone E-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_103",
+    "name": "Valentina Edp",
+    "brand": "Valentino",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Valentino, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Valentino, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 431,
+    "shelf_location": "Zone F-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_104",
+    "name": "Valentina Assoluto Edp",
+    "brand": "Valentino",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Valentino, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Valentino, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 448,
+    "shelf_location": "Zone VIP-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_105",
+    "name": "Valentina Pink Edp",
+    "brand": "Valentino",
+    "category": "Floral Fruity",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Valentino, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Valentino, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 465,
+    "shelf_location": "Zone A-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_106",
+    "name": "Phantom",
+    "brand": "Paco Rabanne",
+    "category": "Woody Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Paco Rabanne تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Paco Rabanne, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Paco Rabanne, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 182,
+    "shelf_location": "Zone B-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_107",
+    "name": "Fame",
+    "brand": "Paco Rabanne",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Paco Rabanne, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Paco Rabanne, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 199,
+    "shelf_location": "Zone C-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_108",
+    "name": "Invictus Victory Elixir",
+    "brand": "Paco Rabanne",
+    "category": "Amber Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Paco Rabanne, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 216,
+    "shelf_location": "Zone D-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_109",
+    "name": "Invictus Legend",
+    "brand": "Paco Rabanne",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Paco Rabanne تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Paco Rabanne, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Paco Rabanne, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 233,
+    "shelf_location": "Zone E-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_110",
+    "name": "Invictus Platinum",
+    "brand": "Paco Rabanne",
+    "category": "Aromatic Fougere",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Paco Rabanne تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Paco Rabanne, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Paco Rabanne, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 250,
+    "shelf_location": "Zone F-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_111",
+    "name": "Lady Million",
+    "brand": "Paco Rabanne",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Paco Rabanne, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Paco Rabanne, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 267,
+    "shelf_location": "Zone VIP-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_112",
+    "name": "1 Million Eau De Toilette",
+    "brand": "Paco Rabanne",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Paco Rabanne تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Paco Rabanne, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Paco Rabanne, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 284,
+    "shelf_location": "Zone A-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_113",
+    "name": "Shalimar Eau De Parfum",
+    "brand": "Guerlain",
+    "category": "Oriental",
+    "target_audience": "Female",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Guerlain تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Guerlain offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Guerlain delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 301,
+    "shelf_location": "Zone B-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_114",
+    "name": "Shalimar Souffle De Parfum",
+    "brand": "Guerlain",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Guerlain, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Guerlain, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 318,
+    "shelf_location": "Zone C-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_115",
+    "name": "Shalimar Parfum Initial Eau De Parfum",
+    "brand": "Guerlain",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Guerlain, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Guerlain, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 335,
+    "shelf_location": "Zone D-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_116",
+    "name": "Shalimar Cologne",
+    "brand": "Guerlain",
+    "category": "Citrus",
+    "target_audience": "Female",
+    "longevity": "Light",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Guerlain, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Guerlain, bringing effortless daytime radiance."
+    },
+    "price": 352,
+    "shelf_location": "Zone E-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_117",
+    "name": "Mon Guerlain Eau De Parfum",
+    "brand": "Guerlain",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Guerlain, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Guerlain, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 369,
+    "shelf_location": "Zone F-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_118",
+    "name": "Mon Guerlain Bloom Of Rose Eau De Parfum",
+    "brand": "Guerlain",
+    "category": "Floriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Guerlain, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Guerlain, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 386,
+    "shelf_location": "Zone VIP-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_119",
+    "name": "Mon Guerlain Intense Eau De Parfum",
+    "brand": "Guerlain",
+    "category": "Amber Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Guerlain, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Guerlain, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 403,
+    "shelf_location": "Zone A-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_120",
+    "name": "Instant Crush",
+    "brand": "Mancera",
+    "category": "Amber Floral",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Mancera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Mancera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 420,
+    "shelf_location": "Zone B-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_121",
+    "name": "Cedrat Boise",
+    "brand": "Mancera",
+    "category": "Citrus Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Mancera, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Mancera, bringing effortless daytime radiance."
+    },
+    "price": 437,
+    "shelf_location": "Zone C-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_122",
+    "name": "Red Tobacco",
+    "brand": "Mancera",
+    "category": "Tobacco Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Mancera تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Mancera offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Mancera delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 454,
+    "shelf_location": "Zone D-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_123",
+    "name": "Black Vanilla",
+    "brand": "Mancera",
+    "category": "Spicy Amber",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Mancera, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 471,
+    "shelf_location": "Zone E-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_124",
+    "name": "Feminity",
+    "brand": "Mancera",
+    "category": "Floral Powdery",
+    "target_audience": "Women",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Mancera, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Mancera, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 188,
+    "shelf_location": "Zone F-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_125",
+    "name": "Pearl",
+    "brand": "Mancera",
+    "category": "Fig Floral Musk",
+    "target_audience": "Women",
+    "longevity": "Strong",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Mancera, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Mancera, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 205,
+    "shelf_location": "Zone VIP-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_126",
+    "name": "Velvet Vanilla",
+    "brand": "Mancera",
+    "category": "Floriental",
+    "target_audience": "Women",
+    "longevity": "Strong",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Mancera, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Mancera, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 222,
+    "shelf_location": "Zone A-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_127",
+    "name": "English Pear & Freesia Cologne",
+    "brand": "Jo Malone",
+    "category": "Floral Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Jo Malone, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Jo Malone, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 239,
+    "shelf_location": "Zone B-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_128",
+    "name": "Peony & Blush Suede Cologne",
+    "brand": "Jo Malone",
+    "category": "Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Jo Malone, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Jo Malone, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 256,
+    "shelf_location": "Zone C-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_129",
+    "name": "Lime Basil & Mandarin Cologne",
+    "brand": "Jo Malone",
+    "category": "Citrus Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Jo Malone, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Jo Malone, bringing effortless daytime radiance."
+    },
+    "price": 273,
+    "shelf_location": "Zone D-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_130",
+    "name": "Wood Sage & Sea Salt Cologne",
+    "brand": "Jo Malone",
+    "category": "Woody Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Jo Malone تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Jo Malone, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Jo Malone, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 290,
+    "shelf_location": "Zone E-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_131",
+    "name": "Pomegranate Noir Cologne",
+    "brand": "Jo Malone",
+    "category": "Oriental Fruity",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Jo Malone تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Jo Malone offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Jo Malone delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 307,
+    "shelf_location": "Zone F-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_132",
+    "name": "Nectarine Blossom & Honey Cologne",
+    "brand": "Jo Malone",
+    "category": "Floral Fruity",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Jo Malone, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Jo Malone, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 324,
+    "shelf_location": "Zone VIP-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_133",
+    "name": "Red Roses Cologne",
+    "brand": "Jo Malone",
+    "category": "Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Jo Malone, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Jo Malone, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 341,
+    "shelf_location": "Zone A-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_134",
+    "name": "Philosykos Eau De Toilette",
+    "brand": "Diptyque",
+    "category": "Woody Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Diptyque تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Diptyque offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Diptyque delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 358,
+    "shelf_location": "Zone B-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_135",
+    "name": "Do Son Eau De Toilette",
+    "brand": "Diptyque",
+    "category": "Floral",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Diptyque, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Diptyque, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 375,
+    "shelf_location": "Zone C-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_136",
+    "name": "L'Ombre Dans L'Eau Eau De Toilette",
+    "brand": "Diptyque",
+    "category": "Floral Fruity",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Diptyque, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Diptyque, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 392,
+    "shelf_location": "Zone D-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_137",
+    "name": "Tubéreuse Eau De Toilette",
+    "brand": "Diptyque",
+    "category": "Floral",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Diptyque, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Diptyque, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 409,
+    "shelf_location": "Zone E-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_138",
+    "name": "Eau Rose Eau De Toilette",
+    "brand": "Diptyque",
+    "category": "Floral",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Diptyque, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Diptyque, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 426,
+    "shelf_location": "Zone F-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_139",
+    "name": "Fleur De Peau Eau De Parfum",
+    "brand": "Diptyque",
+    "category": "Floriental",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "إبداع شرقي زهري ساحر يفيض بأنوثة الورد والياسمين مع قاعدة عنبرية مخملية دافئة تأسر الحواس.",
+      "fr": "Une harmonie florale orientale envoûtante signée Diptyque, mariant pétales de jasmin et ambre velouté séduisant.",
+      "en": "An alluring floriental masterpiece from Diptyque, marrying precious jasmine petals with a sumptuous amber trail."
+    },
+    "price": 443,
+    "shelf_location": "Zone VIP-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_140",
+    "name": "Volutes Eau De Parfum",
+    "brand": "Diptyque",
+    "category": "Oriental",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Diptyque تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Diptyque offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Diptyque delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 460,
+    "shelf_location": "Zone A-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_141",
+    "name": "Chrome Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 477,
+    "shelf_location": "Zone B-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_142",
+    "name": "Chrome Intense Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 194,
+    "shelf_location": "Zone C-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_143",
+    "name": "Chrome Aqua Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 211,
+    "shelf_location": "Zone D-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_144",
+    "name": "Chrome Extreme Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 228,
+    "shelf_location": "Zone E-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_145",
+    "name": "Chrome Azure Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 245,
+    "shelf_location": "Zone F-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_146",
+    "name": "Chrome Legend Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 262,
+    "shelf_location": "Zone VIP-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_147",
+    "name": "Chrome Sport Edt",
+    "brand": "Azzaro",
+    "category": "Aromatic Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Azzaro تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Azzaro, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Azzaro, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 279,
+    "shelf_location": "Zone A-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_148",
+    "name": "Boss Bottled Edt",
+    "brand": "Hugo Boss",
+    "category": "Woody Spicy",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Hugo Boss تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Hugo Boss, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Hugo Boss, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 296,
+    "shelf_location": "Zone B-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_149",
+    "name": "Boss Bottled Edp",
+    "brand": "Hugo Boss",
+    "category": "Woody Spicy",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Hugo Boss تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Hugo Boss, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Hugo Boss, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 313,
+    "shelf_location": "Zone C-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_150",
+    "name": "Boss Bottled Infinite",
+    "brand": "Hugo Boss",
+    "category": "Woody Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Hugo Boss تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Hugo Boss, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Hugo Boss, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 330,
+    "shelf_location": "Zone D-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_151",
+    "name": "Boss Bottled Tonic",
+    "brand": "Hugo Boss",
+    "category": "Citrus Aromatic",
+    "target_audience": "Men",
+    "longevity": "Light",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Hugo Boss, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Hugo Boss, bringing effortless daytime radiance."
+    },
+    "price": 347,
+    "shelf_location": "Zone E-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_citrus",
+      "tag_fresh",
+      "tag_summer",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_152",
+    "name": "Boss The Scent Edt",
+    "brand": "Hugo Boss",
+    "category": "Spicy Oriental",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Hugo Boss تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Hugo Boss offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Hugo Boss delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 364,
+    "shelf_location": "Zone F-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_153",
+    "name": "Boss The Scent Intense Edp",
+    "brand": "Hugo Boss",
+    "category": "Spicy Oriental",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Hugo Boss تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Hugo Boss offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Hugo Boss delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 381,
+    "shelf_location": "Zone VIP-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_154",
+    "name": "Hugo Man Edt",
+    "brand": "Hugo Boss",
+    "category": "Green Aromatic",
+    "target_audience": "Men",
+    "longevity": "Light",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Hugo Boss تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Hugo Boss offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Hugo Boss delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 398,
+    "shelf_location": "Zone A-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_subtle",
+      "tag_fresh",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_155",
+    "name": "Legend Edt",
+    "brand": "Montblanc",
+    "category": "Aromatic Fougere",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Montblanc تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Montblanc, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Montblanc, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 415,
+    "shelf_location": "Zone B-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody"
+    ]
+  },
+  {
+    "id": "kgl_perfume_156",
+    "name": "Legend Edp",
+    "brand": "Montblanc",
+    "category": "Aromatic Fougere",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Montblanc تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Montblanc, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Montblanc, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 432,
+    "shelf_location": "Zone C-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_157",
+    "name": "Legend Spirit",
+    "brand": "Montblanc",
+    "category": "Woody Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Montblanc تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Montblanc, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Montblanc, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 449,
+    "shelf_location": "Zone D-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_158",
+    "name": "Legend Blue",
+    "brand": "Montblanc",
+    "category": "Fresh Aquatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Montblanc, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Montblanc, bringing effortless daytime radiance."
+    },
+    "price": 466,
+    "shelf_location": "Zone E-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_159",
+    "name": "Legend Red",
+    "brand": "Montblanc",
+    "category": "Woody Fruity",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Montblanc تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Montblanc offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Montblanc delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 183,
+    "shelf_location": "Zone F-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_160",
+    "name": "Legend Night",
+    "brand": "Montblanc",
+    "category": "Woody Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Montblanc تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Montblanc, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Montblanc, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 200,
+    "shelf_location": "Zone VIP-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_161",
+    "name": "Explorer",
+    "brand": "Montblanc",
+    "category": "Woody Aromatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Montblanc تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Montblanc, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Montblanc, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 217,
+    "shelf_location": "Zone A-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_162",
+    "name": "Abaan",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 234,
+    "shelf_location": "Zone B-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_163",
+    "name": "Adeeb",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 251,
+    "shelf_location": "Zone C-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_164",
+    "name": "Afeef",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 268,
+    "shelf_location": "Zone D-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_165",
+    "name": "Afkaar",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 285,
+    "shelf_location": "Zone E-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_166",
+    "name": "Al Awsaaf",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 302,
+    "shelf_location": "Zone F-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_167",
+    "name": "Al Azal",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 319,
+    "shelf_location": "Zone VIP-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_male",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_168",
+    "name": "Al Dur Al Maknoon Gold",
+    "brand": "Lattafa",
+    "category": "Unknown",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة حصرية من دار Lattafa ذات أبعاد عطرية فريدة بانتظار استكمال التقييم الحسي وتحديد النغمات التفصيلية.",
+      "fr": "Création exclusive de Lattafa offrant un profil captivant en attente de validation sensorielle approfondie.",
+      "en": "An exclusive olfactory creation by Lattafa featuring intriguing facets awaiting detailed sensory evaluation."
+    },
+    "price": 336,
+    "shelf_location": "Zone A-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_strong"
+    ]
+  },
+  {
+    "id": "kgl_perfume_169",
+    "name": "Amber Oud Aqua Dubai",
+    "brand": "Al Haramain",
+    "category": "Fresh Amber",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Al Haramain, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Al Haramain, bringing effortless daytime radiance."
+    },
+    "price": 353,
+    "shelf_location": "Zone B-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_170",
+    "name": "Detour Noir",
+    "brand": "Al Haramain",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Al Haramain تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Al Haramain, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Al Haramain, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 370,
+    "shelf_location": "Zone C-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_171",
+    "name": "Detour Noir Intense",
+    "brand": "Al Haramain",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Al Haramain تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Al Haramain, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Al Haramain, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 387,
+    "shelf_location": "Zone D-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_172",
+    "name": "Detour Eco",
+    "brand": "Al Haramain",
+    "category": "Fresh Fougere",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Al Haramain تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Al Haramain, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Al Haramain, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 404,
+    "shelf_location": "Zone E-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_woody",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_173",
+    "name": "Detour Rouge",
+    "brand": "Al Haramain",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Al Haramain تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Al Haramain, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Al Haramain, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 421,
+    "shelf_location": "Zone F-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_174",
+    "name": "9 Am Dive",
+    "brand": "Afnan",
+    "category": "Fresh Scent",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Afnan, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Afnan, bringing effortless daytime radiance."
+    },
+    "price": 438,
+    "shelf_location": "Zone VIP-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_175",
+    "name": "9 Am Pour Femme",
+    "brand": "Afnan",
+    "category": "Fresh Scent",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Afnan, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Afnan, bringing effortless daytime radiance."
+    },
+    "price": 455,
+    "shelf_location": "Zone A-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_176",
+    "name": "9 Am Pour Homme",
+    "brand": "Afnan",
+    "category": "Fresh Scent",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Afnan, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Afnan, bringing effortless daytime radiance."
+    },
+    "price": 472,
+    "shelf_location": "Zone B-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_177",
+    "name": "9 Pm",
+    "brand": "Afnan",
+    "category": "Mass Pleaser",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Afnan تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Afnan offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Afnan delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 189,
+    "shelf_location": "Zone C-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": true,
+    "tags": [
+      "tag_unisex",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_178",
+    "name": "9 Pm Rebel",
+    "brand": "Afnan",
+    "category": "Woody Fruity",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Afnan تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Afnan offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Afnan delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 206,
+    "shelf_location": "Zone D-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_179",
+    "name": "Cherry Bouquet",
+    "brand": "Afnan",
+    "category": "Fruity Gourmand",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "نفحات دافئة ومغرية من الفانيليا الفاخرة وحبوب التونكا المغلفة بالعنبر الذهبي لإحساس غامر بالجاذبية والفخامة.",
+      "fr": "Une symphonie gourmande et sensuelle où la vanille Bourbon s’associe à l’ambre doré pour un sillage irrésistible.",
+      "en": "An indulgent oriental gourmand by Afnan, blending Madagascar vanilla, roasted tonka, and radiant golden amber."
+    },
+    "price": 223,
+    "shelf_location": "Zone E-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_180",
+    "name": "Abstract Portrait",
+    "brand": "Afnan",
+    "category": "Oriental Fougere",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Afnan تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Afnan, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Afnan, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 240,
+    "shelf_location": "Zone F-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_fresh",
+      "tag_woody",
+      "tag_daily",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_181",
+    "name": "Kuro",
+    "brand": "Ajmal",
+    "category": "Fresh Aquatic",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Ajmal, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Ajmal, bringing effortless daytime radiance."
+    },
+    "price": 257,
+    "shelf_location": "Zone VIP-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_182",
+    "name": "Blue",
+    "brand": "Ajmal",
+    "category": "Fresh Aromatic",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Ajmal, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Ajmal, bringing effortless daytime radiance."
+    },
+    "price": 274,
+    "shelf_location": "Zone A-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_183",
+    "name": "Shiro",
+    "brand": "Ajmal",
+    "category": "Oriental Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Ajmal تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Ajmal offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Ajmal delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 291,
+    "shelf_location": "Zone B-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_184",
+    "name": "Rain Drops",
+    "brand": "Ajmal",
+    "category": "Fresh Aquatic",
+    "target_audience": "Unisex",
+    "longevity": "Light–Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Ajmal, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Ajmal, bringing effortless daytime radiance."
+    },
+    "price": 308,
+    "shelf_location": "Zone C-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_subtle",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_185",
+    "name": "Wisal Dahab",
+    "brand": "Ajmal",
+    "category": "Floral Oriental",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Ajmal, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Ajmal, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 325,
+    "shelf_location": "Zone D-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_amber",
+      "tag_warm",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_186",
+    "name": "Evoke For Him",
+    "brand": "Ajmal",
+    "category": "Aromatic",
+    "target_audience": "Men",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Ajmal تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Ajmal offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Ajmal delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 342,
+    "shelf_location": "Zone E-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_fresh",
+      "tag_daily"
+    ]
+  },
+  {
+    "id": "kgl_perfume_187",
+    "name": "Blu",
+    "brand": "Ajmal",
+    "category": "Floral Aquatic",
+    "target_audience": "Men",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Ajmal, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Ajmal, bringing effortless daytime radiance."
+    },
+    "price": 359,
+    "shelf_location": "Zone F-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer",
+      "tag_floral",
+      "tag_elegant"
+    ]
+  },
+  {
+    "id": "kgl_perfume_188",
+    "name": "Shaghaf (Nafaies Al Shaghaf)",
+    "brand": "Rasasi",
+    "category": "Sweet Spicy Oriental",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة عطرية متميزة من Rasasi تتناغم فيها النغمات العطرية لتقدم تجربة حسية فريدة تلائم شخصيتك الراقية.",
+      "fr": "Une création équilibrée de Rasasi offrant un voyage olfactif raffiné conçu pour sublimer chaque instant.",
+      "en": "A distinctive fragrance by Rasasi delivering a masterfully balanced scent profile tailored for refined tastes."
+    },
+    "price": 376,
+    "shelf_location": "Zone VIP-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_spicy",
+      "tag_warm",
+      "tag_amber",
+      "tag_evening"
+    ]
+  },
+  {
+    "id": "kgl_perfume_189",
+    "name": "Shuhrah",
+    "brand": "Rasasi",
+    "category": "Woody Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Rasasi تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Rasasi, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Rasasi, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 393,
+    "shelf_location": "Zone A-10",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_190",
+    "name": "Sotoor Seen",
+    "brand": "Rasasi",
+    "category": "Fresh Spicy",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Rasasi, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Rasasi, bringing effortless daytime radiance."
+    },
+    "price": 410,
+    "shelf_location": "Zone B-11",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_spicy",
+      "tag_warm",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_191",
+    "name": "Sotoor Taa",
+    "brand": "Rasasi",
+    "category": "Fresh Aromatic",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Rasasi, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Rasasi, bringing effortless daytime radiance."
+    },
+    "price": 427,
+    "shelf_location": "Zone C-12",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_192",
+    "name": "Sotoor Waaw",
+    "brand": "Rasasi",
+    "category": "Fresh Woody",
+    "target_audience": "Unisex",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Rasasi, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Rasasi, bringing effortless daytime radiance."
+    },
+    "price": 444,
+    "shelf_location": "Zone D-01",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_unisex",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh",
+      "tag_summer"
+    ]
+  },
+  {
+    "id": "kgl_perfume_193",
+    "name": "Hawas Tropical",
+    "brand": "Rasasi",
+    "category": "Fruity Fresh",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "انفجار من الانتعاش المتوسطي المشرق بلمسات البرغموت والنفحات المائية، يمنحك حيوية ونقاء يدوم طوال اليوم.",
+      "fr": "Une bouffée d’air pur hespéridée et aquatique par Rasasi, évoquant la fraîcheur marine et l’élégance solaire.",
+      "en": "A vibrant rush of Mediterranean citrus and marine breeze by Rasasi, bringing effortless daytime radiance."
+    },
+    "price": 461,
+    "shelf_location": "Zone E-02",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_fresh",
+      "tag_summer",
+      "tag_floral"
+    ]
+  },
+  {
+    "id": "kgl_perfume_194",
+    "name": "Club De Nuit Intense Man",
+    "brand": "Armaf",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Armaf تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Armaf, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Armaf, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 478,
+    "shelf_location": "Zone F-03",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_195",
+    "name": "Cdnim Pure Parfum",
+    "brand": "Armaf",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Armaf تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Armaf, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Armaf, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 195,
+    "shelf_location": "Zone VIP-04",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_196",
+    "name": "Cdnim Edp",
+    "brand": "Armaf",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Armaf تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Armaf, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Armaf, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 212,
+    "shelf_location": "Zone A-05",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_197",
+    "name": "Cdnim Limited Edition",
+    "brand": "Armaf",
+    "category": "Woody Spicy",
+    "target_audience": "Male",
+    "longevity": "Strong",
+    "description": {
+      "ar": "توليفة خشبية حارة آسرة من Armaf تمزج بين دفء التوابل النبيلة وثبات أخشاب الأرز لإطلالة واثقة وجذابة.",
+      "fr": "Une composition boisée et épicée remarquable par Armaf, unissant la chaleur des épices nobles au cèdre raffiné.",
+      "en": "A commanding woody-spicy fragrance by Armaf, uniting warm noble spices with deep, enduring cedar accords."
+    },
+    "price": 229,
+    "shelf_location": "Zone B-06",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_strong",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_spicy",
+      "tag_warm"
+    ]
+  },
+  {
+    "id": "kgl_perfume_198",
+    "name": "Cdn Women",
+    "brand": "Armaf",
+    "category": "Floral Fruity",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Armaf, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Armaf, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 246,
+    "shelf_location": "Zone C-07",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_199",
+    "name": "Lionheart Man",
+    "brand": "Armaf",
+    "category": "Woody Aromatic",
+    "target_audience": "Male",
+    "longevity": "Medium",
+    "description": {
+      "ar": "توليفة أرستقراطية متوازنة من Armaf تجمع بين نضارة اللافندر والأعشاب ونفحات الأخشاب الدافئة لحضور متألق.",
+      "fr": "Une élégance fougère intemporelle signée Armaf, fusionnant la fraîcheur de la lavande à la noblesse des bois.",
+      "en": "A timeless aromatic fougère by Armaf, blending crisp lavender and herbs over an authoritative woody foundation."
+    },
+    "price": 263,
+    "shelf_location": "Zone D-08",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_woody",
+      "tag_mysterious",
+      "tag_fresh"
+    ]
+  },
+  {
+    "id": "kgl_perfume_200",
+    "name": "Yum Yum",
+    "brand": "Armaf",
+    "category": "Fruity Floral",
+    "target_audience": "Female",
+    "longevity": "Medium",
+    "description": {
+      "ar": "باقة راقية من الأزهار النبيلة ولمسات الفواكه الرقيقة تعكس الأناقة الكلاسيكية والجمال الهادئ في كل لحظة.",
+      "fr": "Un bouquet floral raffiné et lumineux signé Armaf, célébrant la grâce naturelle et l’élégance intemporelle.",
+      "en": "A graceful floral bouquet by Armaf, radiating natural poise, delicate sweetness, and timeless romance."
+    },
+    "price": 280,
+    "shelf_location": "Zone E-09",
+    "is_available": true,
+    "is_featured": false,
+    "is_draft": false,
+    "tags": [
+      "tag_male",
+      "tag_daily",
+      "tag_floral",
+      "tag_elegant",
+      "tag_fresh"
+    ]
+  }
+]
