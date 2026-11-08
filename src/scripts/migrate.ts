@@ -14,10 +14,13 @@ async function runMigration() {
   // Check connection string options
   let connectionString = process.env.DATABASE_URL;
 
-  if (!connectionString && process.env.SUPABASE_DB_PASSWORD) {
-    const projectRef = 'muiuueqvmnljpdpaiarl';
-    const password = encodeURIComponent(process.env.SUPABASE_DB_PASSWORD);
-    connectionString = `postgresql://postgres:${password}@db.${projectRef}.supabase.co:5432/postgres`;
+  if (!connectionString && process.env.SUPABASE_DB_PASSWORD && process.env.NEXT_PUBLIC_SUPABASE_URL) {
+    const match = process.env.NEXT_PUBLIC_SUPABASE_URL.match(/https:\/\/([^.]+)\.supabase\.co/);
+    const projectRef = match?.[1];
+    if (projectRef) {
+      const password = encodeURIComponent(process.env.SUPABASE_DB_PASSWORD);
+      connectionString = `postgresql://postgres:${password}@db.${projectRef}.supabase.co:5432/postgres`;
+    }
   }
 
   if (!connectionString) {
@@ -25,7 +28,7 @@ async function runMigration() {
     console.log('NOTICE: Direct DATABASE_URL or SUPABASE_DB_PASSWORD not set.');
     console.log('To apply migrations to your remote Supabase instance:');
     console.log('1. Copy the contents of: supabase/migrations/20261108000000_init_perfume_finder.sql');
-    console.log('2. Open your Supabase Dashboard -> SQL Editor (https://supabase.com/dashboard/project/muiuueqvmnljpdpaiarl/sql)');
+    console.log('2. Open your Supabase Dashboard -> SQL Editor');
     console.log('3. Paste and run the SQL query.');
     console.log('-------------------------------------------------------------');
     return;
@@ -34,7 +37,9 @@ async function runMigration() {
   console.log('Connecting to PostgreSQL database...');
   const client = new Client({
     connectionString,
-    ssl: { rejectUnauthorized: false },
+    ssl: {
+      rejectUnauthorized: process.env.DB_ALLOW_SELF_SIGNED !== 'true',
+    },
   });
 
   try {

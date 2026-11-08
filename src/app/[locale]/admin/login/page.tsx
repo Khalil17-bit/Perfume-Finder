@@ -5,7 +5,6 @@ import { useRouter } from '@/i18n/routing';
 import { useLocale } from 'next-intl';
 import { createClient } from '@/lib/supabase/client';
 import { Compass, Lock, Mail, ArrowRight, ArrowLeft, AlertCircle, ShieldCheck } from 'lucide-react';
-import clsx from 'clsx';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 
 export default function AdminLoginPage() {
@@ -26,7 +25,7 @@ export default function AdminLoginPage() {
     try {
       const supabase = createClient();
       const { error } = await supabase.auth.signInWithPassword({
-        email,
+        email: email.trim(),
         password,
       });
 
@@ -43,7 +42,8 @@ export default function AdminLoginPage() {
   };
 
   const handleDemoBypass = () => {
-    // Allows immediate access in sandbox/demo environment
+    // Sets an explicit SameSite=Lax session cookie verified by middleware
+    document.cookie = 'pf_admin_demo=authenticated; path=/; max-age=3600; SameSite=Lax';
     router.push('/admin');
   };
 
@@ -51,7 +51,7 @@ export default function AdminLoginPage() {
     <div className="relative flex min-h-screen items-center justify-center bg-background px-4 text-textPrimary">
       {/* Background Ambience */}
       <div
-        className="pointer-events-none fixed inset-0 z-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_30%,rgba(212,175,55,0.08),transparent)]"
+        className="pointer-events-none fixed inset-0 z-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_30%,rgba(255,85,0,0.08),transparent)]"
         aria-hidden="true"
       />
 
@@ -62,7 +62,7 @@ export default function AdminLoginPage() {
 
       <div className="relative z-10 w-full max-w-md rounded-3xl border border-zinc-800 bg-surface/90 p-8 sm:p-10 shadow-2xl backdrop-blur-md">
         {/* Brand Icon */}
-        <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-gold/40 bg-gold/10 text-gold shadow-[0_0_20px_rgba(212,175,55,0.2)]">
+        <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl border border-gold/40 bg-gold/10 text-gold shadow-[0_0_20px_rgba(255,85,0,0.2)]">
           <Compass className="h-7 w-7" />
         </div>
 
@@ -93,6 +93,7 @@ export default function AdminLoginPage() {
               <input
                 type="email"
                 required
+                autoComplete="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="admin@perfumfinder.com"
@@ -110,6 +111,7 @@ export default function AdminLoginPage() {
               <input
                 type="password"
                 required
+                autoComplete="current-password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="••••••••"
@@ -142,7 +144,7 @@ export default function AdminLoginPage() {
           <button
             type="button"
             onClick={handleDemoBypass}
-            className="inline-flex items-center gap-2 text-xs font-semibold text-zinc-400 hover:text-gold transition-colors"
+            className="inline-flex items-center gap-2 text-xs font-semibold text-zinc-400 hover:text-gold transition-colors cursor-pointer"
           >
             <ShieldCheck className="h-4 w-4 text-gold" />
             <span>

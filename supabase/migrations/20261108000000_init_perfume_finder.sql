@@ -83,9 +83,9 @@ CREATE TABLE IF NOT EXISTS public.answer_tag_weights (
 CREATE TABLE IF NOT EXISTS public.analytics_logs (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     mode TEXT NOT NULL CHECK (mode IN ('web', 'kiosk')),
-    answered_count INTEGER NOT NULL DEFAULT 0,
+    answered_count INTEGER NOT NULL DEFAULT 0 CHECK (answered_count >= 0 AND answered_count <= 20),
     top_perfume_id UUID REFERENCES public.perfumes(id) ON DELETE SET NULL,
-    selected_answer_ids UUID[] NOT NULL DEFAULT '{}'::uuid[],
+    selected_answer_ids UUID[] NOT NULL DEFAULT '{}'::uuid[] CHECK (coalesce(array_length(selected_answer_ids, 1), 0) <= 20),
     created_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
@@ -138,7 +138,33 @@ CREATE POLICY "anon_select_answer_tag_weights" ON public.answer_tag_weights
     FOR SELECT TO anon USING (true);
 
 CREATE POLICY "anon_insert_analytics" ON public.analytics_logs
-    FOR INSERT TO anon WITH CHECK (true);
+    FOR INSERT TO anon
+    WITH CHECK (
+        mode IN ('web', 'kiosk')
+        AND answered_count >= 0
+        AND answered_count <= 20
+        AND coalesce(array_length(selected_answer_ids, 1), 0) <= 20
+    );
+
+-- Server-side Kiosk PIN verification RPC (prevents cleartext PIN leakage)
+CREATE OR REPLACE FUNCTION public.verify_kiosk_pin(pin_attempt TEXT)
+RETURNS BOOLEAN
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
+DECLARE
+    stored_pin TEXT;
+BEGIN
+    SELECT kiosk_pin INTO stored_pin FROM public.store_settings LIMIT 1;
+    IF stored_pin IS NULL THEN
+        RETURN false;
+    END IF;
+    RETURN stored_pin = pin_attempt;
+END;
+$$;
+
+GRANT EXECUTE ON FUNCTION public.verify_kiosk_pin(TEXT) TO anon, authenticated;
 
 -- Authenticated (Merchant Admin) Full Access Policies
 CREATE POLICY "admin_all_store_settings" ON public.store_settings
@@ -174,12 +200,12 @@ VALUES (
     'perfume-finder-assets',
     true,
     2097152, -- 2MB max
-    ARRAY['image/webp', 'image/png', 'image/jpeg', 'image/svg+xml']
+    ARRAY['image/webp', 'image/png', 'image/jpeg']
 )
 ON CONFLICT (id) DO UPDATE SET
     public = true,
     file_size_limit = 2097152,
-    allowed_mime_types = ARRAY['image/webp', 'image/png', 'image/jpeg', 'image/svg+xml'];
+    allowed_mime_types = ARRAY['image/webp', 'image/png', 'image/jpeg'];
 
 -- Storage RLS
 CREATE POLICY "public_view_assets" ON storage.objects

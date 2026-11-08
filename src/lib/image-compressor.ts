@@ -16,6 +16,11 @@ export interface CompressionResult {
  * - Max size: < 150 KB (0.15 MB)
  */
 export async function compressToWebP(imageFile: File): Promise<CompressionResult> {
+  const allowedInputTypes = ['image/jpeg', 'image/png', 'image/webp'];
+  if (!allowedInputTypes.includes(imageFile.type)) {
+    throw new Error('Unsupported or unsafe image MIME type. Only JPEG, PNG, and WebP are permitted.');
+  }
+
   const originalSizeKb = Math.round(imageFile.size / 1024);
 
   const options = {
@@ -35,14 +40,19 @@ export async function compressToWebP(imageFile: File): Promise<CompressionResult
 
   const compressedSizeKb = Math.round(webpFile.size / 1024);
 
-  // Read dimensions
+  // Read dimensions and immediately revoke ObjectURL to prevent memory leaks
   const dimensions = await new Promise<{ width: number; height: number }>((resolve) => {
     const img = new Image();
-    img.src = URL.createObjectURL(webpFile);
+    const objectUrl = URL.createObjectURL(webpFile);
+    img.src = objectUrl;
     img.onload = () => {
-      resolve({ width: img.naturalWidth, height: img.naturalHeight });
+      const width = img.naturalWidth;
+      const height = img.naturalHeight;
+      URL.revokeObjectURL(objectUrl);
+      resolve({ width, height });
     };
     img.onerror = () => {
+      URL.revokeObjectURL(objectUrl);
       resolve({ width: 0, height: 0 });
     };
   });

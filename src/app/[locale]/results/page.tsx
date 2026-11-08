@@ -35,13 +35,18 @@ function ResultsContent() {
 
   const { selectedAnswers, resetQuiz } = useQuizStore();
 
-  // Support both in-memory store and URL query param for phone QR handoff (?ans=id1,id2...)
+  // Support both in-memory store and sanitized URL query param for phone QR handoff (?ans=id1,id2...)
   const selectedAnswerIds = useMemo(() => {
+    const validIds = new Set(FALLBACK_ANSWERS.map((a) => a.id));
     const queryAns = searchParams.get('ans');
     if (queryAns && queryAns.trim().length > 0) {
-      return queryAns.split(',').filter(Boolean);
+      return queryAns
+        .split(',')
+        .map((s) => s.trim())
+        .filter((id) => validIds.has(id))
+        .slice(0, 15);
     }
-    return Object.values(selectedAnswers);
+    return Object.values(selectedAnswers).filter((id) => validIds.has(id));
   }, [searchParams, selectedAnswers]);
 
   // Compute matches using client-side Two-Stage Adaptive Scoring Engine (< 50ms)

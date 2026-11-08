@@ -31,6 +31,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
 
   const handleLogout = async () => {
     try {
+      document.cookie = 'pf_admin_demo=; path=/; max-age=0; SameSite=Lax';
       const supabase = createClient();
       await supabase.auth.signOut();
     } catch {
