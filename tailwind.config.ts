@@ -10,18 +10,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "#0B0B0D", // Deep studio obsidian
-        surface: "#141417",    // Matte charcoal card surface
-        surfaceElevated: "#1C1C21", // Elevated studio slate
+        background: "#09090B", // Zinc-950
+        surface: "#18181B",    // Zinc-900
+        surfaceElevated: "#27272A", // Zinc-800
         gold: {
-          DEFAULT: "#FF5500",  // Signature Burnt Orange (matching Seamless Custom Bundles UI)
-          light: "#FF7129",
-          dark: "#CC4400",
-          glow: "rgba(255, 85, 0, 0.28)",
+          DEFAULT: "#D4AF37",
+          light: "#E5C158",
+          dark: "#AA821C",
+          glow: "rgba(212, 175, 55, 0.25)",
         },
-        amberAccent: "#EA580C",
+        amberAccent: "#B45309",
         textPrimary: "#FAFAFA", // Zinc-50
-        textMuted: "#8E8E98",   // Sober studio grey
+        textMuted: "#A1A1AA",   // Zinc-400
       },
       fontFamily: {
         latin: ["var(--font-inter)", "sans-serif"],

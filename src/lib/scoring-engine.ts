@@ -31,50 +31,35 @@ export interface ScoringParams {
  * Stage 1: Hard Filtering (Strict elimination of drafts, out of stock, and hard filter mismatches).
  * Stage 2: Adaptive Weighted Scoring (Partial-completion safe percentage calculation).
  */
-// WeakMap caches to avoid O(N) lookup reconstruction on repeated renders with identical catalog arrays
-const answersCache = new WeakMap<Answer[], Map<string, Answer>>();
-const perfumeTagsCache = new WeakMap<PerfumeTag[], Map<string, Set<string>>>();
-const weightsCache = new WeakMap<AnswerTagWeight[], Map<string, AnswerTagWeight[]>>();
-
 export function calculateFragranceMatches(params: ScoringParams): ScoringResult {
   const startTime = performance.now();
   const { perfumes, perfumeTags, answers, answerTagWeights, selectedAnswerIds } = params;
 
-  // 1. Retrieve or build O(1) lookup structures
-  let answersById = answersCache.get(answers);
-  if (!answersById) {
-    answersById = new Map<string, Answer>();
-    answers.forEach((ans) => answersById!.set(ans.id, ans));
-    answersCache.set(answers, answersById);
-  }
+  // 1. Build lookup structures for fast O(1) evaluation
+  const answersById = new Map<string, Answer>();
+  answers.forEach((ans) => answersById.set(ans.id, ans));
 
-  let tagsByPerfumeId = perfumeTagsCache.get(perfumeTags);
-  if (!tagsByPerfumeId) {
-    tagsByPerfumeId = new Map<string, Set<string>>();
-    perfumeTags.forEach((pt) => {
-      let tagSet = tagsByPerfumeId!.get(pt.perfume_id);
-      if (!tagSet) {
-        tagSet = new Set<string>();
-        tagsByPerfumeId!.set(pt.perfume_id, tagSet);
-      }
-      tagSet.add(pt.tag_id);
-    });
-    perfumeTagsCache.set(perfumeTags, tagsByPerfumeId);
-  }
+  // perfumeId -> Set of tagIds
+  const tagsByPerfumeId = new Map<string, Set<string>>();
+  perfumeTags.forEach((pt) => {
+    let tagSet = tagsByPerfumeId.get(pt.perfume_id);
+    if (!tagSet) {
+      tagSet = new Set<string>();
+      tagsByPerfumeId.set(pt.perfume_id, tagSet);
+    }
+    tagSet.add(pt.tag_id);
+  });
 
-  let weightsByAnswerId = weightsCache.get(answerTagWeights);
-  if (!weightsByAnswerId) {
-    weightsByAnswerId = new Map<string, AnswerTagWeight[]>();
-    answerTagWeights.forEach((atw) => {
-      let list = weightsByAnswerId!.get(atw.answer_id);
-      if (!list) {
-        list = [];
-        weightsByAnswerId!.set(atw.answer_id, list);
-      }
-      list.push(atw);
-    });
-    weightsCache.set(answerTagWeights, weightsByAnswerId);
-  }
+  // answerId -> array of { tag_id, weight_points }
+  const weightsByAnswerId = new Map<string, AnswerTagWeight[]>();
+  answerTagWeights.forEach((atw) => {
+    let list = weightsByAnswerId.get(atw.answer_id);
+    if (!list) {
+      list = [];
+      weightsByAnswerId.set(atw.answer_id, list);
+    }
+    list.push(atw);
+  });
 
   // Collect selected answers
   const selectedAnswerObjects: Answer[] = [];
