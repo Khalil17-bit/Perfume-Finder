@@ -770,6 +770,7 @@ export default function LavaLandingClient() {
     }
 
     function updateFrame() {
+      cacheGeometry();
       const scrollY = window.scrollY || window.pageYOffset;
 
       if (scrollY <= 0) {
@@ -807,23 +808,35 @@ export default function LavaLandingClient() {
 
     // Re-run geometry cache slightly after mount to ensure web fonts / images settled
     const settleTimer = setTimeout(() => {
-      cacheGeometry();
       updateFrame();
     }, 250);
 
+    const resizeObserver =
+      typeof ResizeObserver !== 'undefined'
+        ? new ResizeObserver(() => {
+            updateFrame();
+          })
+        : null;
+    if (resizeObserver && masterFrame) {
+      resizeObserver.observe(masterFrame);
+      if (dockTarget) resizeObserver.observe(dockTarget);
+    }
+
     recomputeGeoRef.current = () => {
-      cacheGeometry();
       updateFrame();
     };
 
     window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onWindowResize, { passive: true });
+    window.addEventListener('load', updateFrame, { passive: true });
 
     return () => {
       clearTimeout(settleTimer);
       if (resizeTimeout) clearTimeout(resizeTimeout);
+      if (resizeObserver) resizeObserver.disconnect();
       window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onWindowResize);
+      window.removeEventListener('load', updateFrame);
     };
   }, []);
 
