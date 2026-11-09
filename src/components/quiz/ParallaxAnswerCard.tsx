@@ -66,7 +66,7 @@ export function ParallaxAnswerCard({
       }}
       className={clsx(
         'group relative flex flex-col justify-between overflow-hidden rounded-2xl border text-start transition-colors duration-200 cursor-pointer select-none animate-gpu',
-        isKiosk ? 'min-h-[260px] p-5' : 'min-h-[210px] sm:min-h-[230px] p-4 sm:p-5',
+        isKiosk ? 'min-h-[260px] p-5' : 'min-h-[175px] sm:min-h-[220px] p-3.5 sm:p-5',
         isSelected
           ? 'border-[#FF5500] bg-[#16161A] ring-1 ring-[#FF5500]/50'
           : 'border-[#242429] bg-[#141417] hover:border-[#3A3A42] hover:bg-[#17171B]'
@@ -76,7 +76,7 @@ export function ParallaxAnswerCard({
       <div className="relative z-10 flex w-full items-center justify-between">
         <span
           className={clsx(
-            'font-mono text-[10px] font-semibold tracking-widest uppercase transition-colors',
+            'font-mono text-[9px] sm:text-[10px] font-semibold tracking-widest uppercase transition-colors',
             isSelected ? 'text-[#FF5500]' : 'text-zinc-600 group-hover:text-zinc-400'
           )}
         >
@@ -85,7 +85,7 @@ export function ParallaxAnswerCard({
       </div>
 
       {/* Center Stage: Isolated Transparent PNG Object with 3D Parallax */}
-      <div className="relative z-10 my-auto flex h-28 sm:h-32 lg:h-36 w-full items-center justify-center">
+      <div className="relative z-10 my-auto flex h-20 sm:h-28 lg:h-36 w-full items-center justify-center">
         {imageUrl ? (
           <div
             style={{ transform: objectTransform }}
@@ -97,24 +97,24 @@ export function ParallaxAnswerCard({
               loading="eager"
               draggable={false}
               className={clsx(
-                'h-24 w-24 sm:h-28 sm:w-28 lg:h-32 lg:w-32 object-contain select-none pointer-events-none transition-opacity duration-200',
+                'h-18 w-18 sm:h-26 sm:w-26 lg:h-32 lg:w-32 object-contain select-none pointer-events-none transition-opacity duration-200',
                 'brightness-[0.98] contrast-[1.06] drop-shadow-[0_14px_16px_rgba(0,0,0,0.85)]',
                 (tilt.active || isSelected) && 'brightness-[1.05]'
               )}
             />
           </div>
         ) : (
-          <div className="h-24 w-24 rounded-full bg-zinc-900/80 border border-zinc-800" />
+          <div className="h-16 w-16 sm:h-24 sm:w-24 rounded-full bg-zinc-900/80 border border-zinc-800" />
         )}
       </div>
 
       {/* Bottom Product-Style Footer: Title, Subtitle, and Orange Selection Circle */}
-      <div className="relative z-10 mt-2 flex items-end justify-between gap-3 pt-2">
+      <div className="relative z-10 mt-1 sm:mt-2 flex items-end justify-between gap-2 sm:gap-3 pt-1 sm:pt-2">
         <div className="min-w-0 flex-1">
           <h3
             className={clsx(
               'font-bold tracking-tight leading-snug transition-colors',
-              isKiosk ? 'text-base sm:text-lg' : 'text-sm sm:text-base',
+              isKiosk ? 'text-base sm:text-lg' : 'text-xs sm:text-base',
               isSelected ? 'text-white' : 'text-zinc-100 group-hover:text-white'
             )}
           >
@@ -122,7 +122,7 @@ export function ParallaxAnswerCard({
           </h3>
 
           {subtitle && (
-            <p className="mt-1 line-clamp-2 text-[11px] sm:text-xs leading-relaxed text-[#8E8E98]">
+            <p className="mt-0.5 sm:mt-1 line-clamp-2 text-[10px] sm:text-xs leading-relaxed text-[#8E8E98]">
               {subtitle}
             </p>
           )}
@@ -131,7 +131,7 @@ export function ParallaxAnswerCard({
         {/* Signature Circular Action Indicator (Matches Reference Screenshot 1:1) */}
         <div
           className={clsx(
-            'flex h-7 w-7 shrink-0 items-center justify-center rounded-full transition-transform duration-200',
+            'flex h-6 w-6 sm:h-7 sm:w-7 shrink-0 items-center justify-center rounded-full transition-transform duration-200',
             isSelected
               ? 'bg-[#FF5500] text-zinc-950 scale-105 shadow-[0_0_14px_rgba(255,85,0,0.5)]'
               : 'bg-[#25252B] text-zinc-400 group-hover:bg-[#32323A] group-hover:text-zinc-100 group-hover:scale-105'
@@ -139,9 +139,9 @@ export function ParallaxAnswerCard({
           aria-hidden="true"
         >
           {isSelected ? (
-            <Check className="h-4 w-4 stroke-[2.75]" />
+            <Check className="h-3.5 w-3.5 sm:h-4 sm:w-4 stroke-[2.75]" />
           ) : (
-            <Plus className="h-3.5 w-3.5 stroke-[2.25] transition-transform duration-200 group-hover:rotate-90" />
+            <Plus className="h-3 w-3 sm:h-3.5 sm:w-3.5 stroke-[2.25] transition-transform duration-200 group-hover:rotate-90" />
           )}
         </div>
       </div>

@@ -595,6 +595,26 @@ export default function LavaLandingClient() {
       geo.masterDocLeft = mRect.left;
       geo.masterDocTop = mRect.top + scrollY;
 
+      // On mobile screens (< 800px), avoid huge coordinate shifts from document reflows.
+      // Anchor dimensions are measured dynamically from the live DOM placeholder.
+      if (heroAnchor) {
+        const hRect = heroAnchor.getBoundingClientRect();
+        geo.heroAnchorW = hRect.width > 0 ? hRect.width : (geo.isMobile ? 150 : 275);
+        geo.heroAnchorH = hRect.height > 0 ? hRect.height : (geo.heroAnchorW * 1.93);
+        geo.heroW = geo.heroAnchorW;
+        geo.heroH = geo.heroAnchorH;
+        geo.heroDocLeft = hRect.left;
+        geo.heroDocTop = hRect.top + scrollY;
+      } else {
+        const heroRect = heroStage.getBoundingClientRect();
+        geo.heroW = Math.min(275, heroRect.width * (geo.isMobile ? 0.45 : 0.35));
+        geo.heroH = geo.heroW * 1.93;
+        geo.heroAnchorW = geo.heroW;
+        geo.heroAnchorH = geo.heroH;
+        geo.heroDocLeft = heroRect.left + heroRect.width * 0.5 - geo.heroW / 2;
+        geo.heroDocTop = heroRect.top + scrollY + heroRect.height * 0.4 - geo.heroH / 2;
+      }
+
       const dRect = dockTarget.getBoundingClientRect();
       if (dRect.width > 0 && dRect.height > 0) {
         geo.dockDocLeft = dRect.left;
@@ -603,26 +623,8 @@ export default function LavaLandingClient() {
         geo.dockTargetH = dRect.height;
       }
 
-      if (heroAnchor) {
-        const hRect = heroAnchor.getBoundingClientRect();
-        geo.heroAnchorW = hRect.width || 275;
-        geo.heroAnchorH = hRect.height || geo.heroAnchorW * 1.93;
-        geo.heroW = geo.heroAnchorW;
-        geo.heroH = geo.heroAnchorH;
-        geo.heroDocLeft = hRect.left;
-        geo.heroDocTop = hRect.top + scrollY;
-      } else {
-        const heroRect = heroStage.getBoundingClientRect();
-        geo.heroW = Math.min(275, heroRect.width * 0.35);
-        geo.heroH = geo.heroW * 1.93;
-        geo.heroAnchorW = geo.heroW;
-        geo.heroAnchorH = geo.heroH;
-        geo.heroDocLeft = heroRect.left + heroRect.width * 0.52 - geo.heroW / 2;
-        geo.heroDocTop = heroRect.top + scrollY + heroRect.height * 0.42 - geo.heroH / 2;
-      }
-
       geo.startScroll = 0;
-      geo.endScroll = Math.max(120, geo.dockDocTop - vpH * 0.5);
+      geo.endScroll = Math.max(80, geo.dockDocTop - vpH * 0.5);
     }
 
     function lerp(start: number, end: number, factor: number) {
@@ -675,10 +677,10 @@ export default function LavaLandingClient() {
         finalLeft = geo.heroDocLeft + (geo.heroAnchorW - geo.heroW) / 2;
         finalTop = geo.heroDocTop - scrollY + (geo.heroAnchorH - geo.heroH) / 2;
       } else if (currentProgress >= 1) {
-        targetW = DOCK_W;
-        targetH = DOCK_H;
-        finalLeft = geo.dockDocLeft + (geo.dockTargetW - DOCK_W) / 2;
-        finalTop = geo.dockDocTop - scrollY + (geo.dockTargetH - DOCK_H) / 2 + 6;
+        targetW = geo.dockTargetW > 0 ? Math.min(DOCK_W, geo.dockTargetW) : DOCK_W;
+        targetH = targetW * 1.93;
+        finalLeft = geo.dockDocLeft + (geo.dockTargetW - targetW) / 2;
+        finalTop = geo.dockDocTop - scrollY + (geo.dockTargetH - targetH) / 2 + (geo.isMobile ? 0 : 6);
       } else {
         finalLeft = targetVX - targetW / 2;
         finalTop = targetVY - targetH / 2;

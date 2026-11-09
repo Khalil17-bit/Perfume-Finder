@@ -25,6 +25,7 @@ import {
 } from 'lucide-react';
 import clsx from 'clsx';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
+import { PerfumeBottleDisplay } from '@/components/results/PerfumeBottleDisplay';
 
 function ResultsContent() {
   const locale = useLocale();
@@ -35,13 +36,18 @@ function ResultsContent() {
 
   const { selectedAnswers, resetQuiz } = useQuizStore();
 
-  // Support both in-memory store and URL query param for phone QR handoff (?ans=id1,id2...)
+  // Support both in-memory store and sanitized URL query param for phone QR handoff (?ans=id1,id2...)
   const selectedAnswerIds = useMemo(() => {
+    const validIds = new Set(FALLBACK_ANSWERS.map((a) => a.id));
     const queryAns = searchParams.get('ans');
     if (queryAns && queryAns.trim().length > 0) {
-      return queryAns.split(',').filter(Boolean);
+      return queryAns
+        .split(',')
+        .map((s) => s.trim())
+        .filter((id) => validIds.has(id))
+        .slice(0, 15);
     }
-    return Object.values(selectedAnswers);
+    return Object.values(selectedAnswers).filter((id) => validIds.has(id));
   }, [searchParams, selectedAnswers]);
 
   // Compute matches using client-side Two-Stage Adaptive Scoring Engine (< 50ms)
@@ -227,23 +233,24 @@ interface CardProps {
 }
 
 function HeroPerfumeCard({ scored, rank = 1, locale, tagMap, matchLabel }: CardProps) {
-  const { perfume, matchPercentage, matchedTagIds } = scored;
+  const { perfume, matchPercentage } = scored;
   const description = resolveLocalized(perfume.description, locale);
   const isWinner = rank === 1;
 
   return (
     <article
       className={clsx(
-        'group relative flex flex-col justify-between rounded-3xl border p-7 backdrop-blur-md transition-all duration-300 hover:-translate-y-1',
+        'group relative flex flex-col justify-between rounded-3xl border p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1',
         isWinner
-          ? 'border-gold/50 bg-gradient-to-b from-surface via-surface to-gold/5 shadow-[0_0_30px_rgba(212,175,55,0.18)] ring-1 ring-gold/40'
-          : 'border-zinc-800 bg-surface shadow-md hover:border-zinc-700'
+          ? 'border-[#FF5500]/60 bg-gradient-to-b from-[#141418] via-[#101014] to-[#FF5500]/10 shadow-[0_0_35px_rgba(255,85,0,0.18)] ring-1 ring-[#FF5500]/40'
+          : 'border-zinc-800/90 bg-[#121216] shadow-lg hover:border-zinc-700'
       )}
     >
       <div>
+        {/* Top Badges */}
         <div className="flex items-center justify-between gap-2">
           <div className="inline-flex items-center gap-1.5 rounded-full bg-zinc-800/80 px-2.5 py-1 text-[11px] font-semibold tracking-wider text-zinc-300">
-            {isWinner && <Crown className="h-3.5 w-3.5 text-gold" />}
+            {isWinner && <Crown className="h-3.5 w-3.5 text-[#FF5500]" />}
             <span>#{rank}</span>
           </div>
 
@@ -251,46 +258,40 @@ function HeroPerfumeCard({ scored, rank = 1, locale, tagMap, matchLabel }: CardP
             className={clsx(
               'rounded-full px-3 py-1 text-xs font-bold tracking-wide shadow-sm',
               isWinner
-                ? 'bg-gold text-zinc-950 font-black'
-                : 'bg-zinc-800 border border-gold/40 text-gold'
+                ? 'bg-[#FF5500] text-zinc-950 font-black'
+                : 'bg-zinc-800 border border-[#FF5500]/40 text-[#FF5500]'
             )}
           >
             {matchPercentage}% {matchLabel}
           </div>
         </div>
 
-        <div className="mt-5">
+        {/* Dynamic Transparent Perfume Bottle Stage with 3D Projected Label */}
+        <div className="my-3">
+          <PerfumeBottleDisplay
+            id={perfume.id}
+            name={perfume.name}
+            brand={perfume.brand}
+            isHero={true}
+          />
+        </div>
+
+        {/* Product Identity */}
+        <div className="mt-2 text-center sm:text-start">
           {perfume.brand && (
-            <p className="font-latin text-xs font-semibold tracking-widest text-gold uppercase">
+            <p className="font-latin text-xs font-bold tracking-widest text-[#FF5500] uppercase">
               {perfume.brand}
             </p>
           )}
-          <h3 className="font-latin mt-1 text-xl font-bold tracking-tight text-zinc-50 group-hover:text-gold transition-colors duration-200">
+          <h3 className="font-latin mt-0.5 text-lg sm:text-xl font-black tracking-tight text-white group-hover:text-[#FF5500] transition-colors duration-200">
             {perfume.name}
           </h3>
         </div>
 
-        <p className="mt-3 text-xs leading-relaxed text-zinc-400 sm:text-sm">
+        {/* Description (Tags are hidden per user request) */}
+        <p className="mt-2.5 text-xs sm:text-sm leading-relaxed text-zinc-400">
           {description}
         </p>
-
-        {matchedTagIds.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-1.5">
-            {matchedTagIds.map((tagId) => {
-              const label = tagMap.get(tagId);
-              if (!label) return null;
-              return (
-                <span
-                  key={tagId}
-                  className="inline-flex items-center gap-1 rounded-md bg-zinc-900 border border-zinc-800 px-2 py-0.5 text-[11px] font-medium text-zinc-300"
-                >
-                  <TagIcon className="h-2.5 w-2.5 text-gold/70" />
-                  <span>{label}</span>
-                </span>
-              );
-            })}
-          </div>
-        )}
       </div>
 
       {perfume.price && (
@@ -298,7 +299,7 @@ function HeroPerfumeCard({ scored, rank = 1, locale, tagMap, matchLabel }: CardP
           <span className="text-zinc-500 font-medium">
             {locale === 'ar' ? 'السعر التقديري' : locale === 'fr' ? 'Prix estimé' : 'Estimated Price'}
           </span>
-          <span className="font-bold text-zinc-200">
+          <span className="font-bold text-white text-sm">
             {perfume.price} {locale === 'ar' ? 'د.ت' : 'TND'}
           </span>
         </div>
@@ -308,54 +309,48 @@ function HeroPerfumeCard({ scored, rank = 1, locale, tagMap, matchLabel }: CardP
 }
 
 // ---------------------------------------------------------------------
-// Secondary Perfume Card (Other Compatible Matches) - Typographic
+// Secondary Perfume Card (Other Compatible Matches)
 // ---------------------------------------------------------------------
 function SecondaryPerfumeCard({ scored, locale, tagMap, matchLabel }: CardProps) {
-  const { perfume, matchPercentage, matchedTagIds } = scored;
+  const { perfume, matchPercentage } = scored;
   const description = resolveLocalized(perfume.description, locale);
 
   return (
-    <article className="group flex flex-col justify-between rounded-2xl border border-zinc-800/90 bg-surface/80 p-5 backdrop-blur-sm transition-all duration-200 hover:border-zinc-700 hover:bg-surface">
+    <article className="content-auto group flex flex-col justify-between rounded-2xl border border-zinc-800/90 bg-[#121216]/90 p-5 backdrop-blur-sm transition-all duration-200 hover:border-zinc-700 hover:bg-[#15151B]">
       <div>
         <div className="flex items-center justify-between gap-2">
           {perfume.brand && (
-            <span className="font-latin text-[10px] font-semibold tracking-wider text-zinc-400 uppercase">
+            <span className="font-latin text-[10px] font-bold tracking-wider text-[#FF5500] uppercase">
               {perfume.brand}
             </span>
           )}
-          <span className="rounded-full bg-zinc-800/90 border border-zinc-700/60 px-2.5 py-0.5 text-[11px] font-bold text-gold">
+          <span className="rounded-full bg-zinc-800/90 border border-[#FF5500]/40 px-2.5 py-0.5 text-[11px] font-bold text-[#FF5500]">
             {matchPercentage}% {matchLabel}
           </span>
         </div>
 
-        <h3 className="font-latin mt-2 text-base font-bold text-zinc-100 group-hover:text-gold transition-colors">
+        {/* Dynamic Transparent Perfume Bottle Stage with 3D Projected Label */}
+        <div className="my-2">
+          <PerfumeBottleDisplay
+            id={perfume.id}
+            name={perfume.name}
+            brand={perfume.brand}
+            isHero={false}
+          />
+        </div>
+
+        <h3 className="font-latin mt-1 text-base font-bold text-white group-hover:text-[#FF5500] transition-colors">
           {perfume.name}
         </h3>
 
+        {/* Description (Tags are hidden per user request) */}
         <p className="mt-2 text-xs leading-relaxed text-zinc-400 line-clamp-3">
           {description}
         </p>
-
-        {matchedTagIds.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-1">
-            {matchedTagIds.slice(0, 3).map((tagId) => {
-              const label = tagMap.get(tagId);
-              if (!label) return null;
-              return (
-                <span
-                  key={tagId}
-                  className="rounded bg-zinc-900 border border-zinc-800/80 px-1.5 py-0.5 text-[10px] text-zinc-300"
-                >
-                  {label}
-                </span>
-              );
-            })}
-          </div>
-        )}
       </div>
 
       {perfume.price && (
-        <div className="mt-4 pt-3 border-t border-zinc-800/40 text-end text-xs font-semibold text-zinc-300">
+        <div className="mt-4 pt-3 border-t border-zinc-800/40 text-end text-xs font-semibold text-zinc-200">
           {perfume.price} {locale === 'ar' ? 'د.ت' : 'TND'}
         </div>
       )}

@@ -16,6 +16,14 @@ body {
 /* Strict GPU-only animation constraints */
 .animate-gpu {
   will-change: transform, opacity;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+/* Content visibility optimization for high-density catalog lists */
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 320px;
 }
 
 /* Custom scrollbar for luxury UI */

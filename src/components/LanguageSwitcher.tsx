@@ -48,10 +48,10 @@ export function LanguageSwitcher({ className }: LanguageSwitcherProps) {
             onClick={() => handleLocaleChange(loc.code)}
             disabled={isPending}
             className={clsx(
-              'rounded-full px-3 py-1 text-xs font-medium tracking-wide transition-transform active:scale-95 duration-150',
+              'rounded-full px-3.5 py-1 text-xs font-semibold tracking-wide transition-all duration-150 active:scale-95 cursor-pointer',
               isActive
-                ? 'bg-gold/15 text-gold border border-gold/30 shadow-sm'
-                : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800/60'
+                ? 'bg-[#FF5500]/20 text-[#FF5500] border border-[#FF5500]/60 shadow-[0_0_12px_rgba(255,85,0,0.35)]'
+                : 'text-zinc-400 hover:text-white hover:bg-zinc-800/80 border border-transparent'
             )}
             aria-pressed={isActive}
           >

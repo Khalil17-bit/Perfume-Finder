@@ -16,6 +16,7 @@ import { calculateFragranceMatches, ScoredPerfume } from '@/lib/scoring-engine';
 import { resolveLocalized } from '@/lib/i18n-helper';
 import { createClient } from '@/lib/supabase/client';
 import { QrModal } from '@/components/kiosk/QrModal';
+import { PerfumeBottleDisplay } from '@/components/results/PerfumeBottleDisplay';
 import {
   Sparkles,
   RotateCcw,
@@ -259,99 +260,85 @@ function KioskPerfumeCard({
   shelfLabel,
   isCompact = false,
 }: KioskCardProps) {
-  const { perfume, matchPercentage, matchedTagIds } = scored;
+  const { perfume, matchPercentage } = scored;
   const description = resolveLocalized(perfume.description, locale);
   const isWinner = rank === 1;
 
   return (
     <article
       className={clsx(
-        'group relative flex flex-col justify-between rounded-3xl border p-6 backdrop-blur-md transition-all duration-300 hover:-translate-y-1',
+        'group relative flex flex-col justify-between rounded-3xl border p-6 backdrop-blur-md transition-all duration-300',
         isWinner
-          ? 'border-gold/60 bg-gradient-to-b from-surface via-surface to-gold/10 shadow-[0_0_35px_rgba(212,175,55,0.2)] ring-2 ring-gold/40'
-          : isCompact
-          ? 'border-zinc-800 bg-surface/85 hover:border-zinc-700'
-          : 'border-zinc-800 bg-surface shadow-md hover:border-zinc-700'
+          ? 'border-[#FF5500]/60 bg-gradient-to-b from-[#141418] via-[#101014] to-[#FF5500]/10 shadow-[0_0_35px_rgba(255,85,0,0.18)] ring-1 ring-[#FF5500]/40'
+          : 'border-zinc-800 bg-[#121216] shadow-lg hover:border-zinc-700'
       )}
     >
       <div>
-        {/* Header Badges */}
+        {/* Top Badges */}
         <div className="flex items-center justify-between gap-2">
           {rank ? (
-            <div className="inline-flex items-center gap-1.5 rounded-full bg-zinc-800/90 px-3 py-1 text-xs font-bold text-zinc-200">
-              {isWinner && <Crown className="h-4 w-4 text-gold" />}
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-zinc-800 px-3 py-1 text-xs font-bold text-zinc-200">
+              {isWinner && <Crown className="h-4 w-4 text-[#FF5500]" />}
               <span>#{rank}</span>
             </div>
           ) : (
-            perfume.brand && (
-              <span className="font-latin text-[10px] font-bold tracking-wider text-zinc-400 uppercase">
-                {perfume.brand}
-              </span>
-            )
+            <div />
           )}
 
           <div
             className={clsx(
-              'rounded-full px-3 py-1 text-xs font-extrabold tracking-wide',
+              'rounded-full px-3.5 py-1 text-xs font-black tracking-wide shadow-sm',
               isWinner
-                ? 'bg-gold text-zinc-950 font-black'
-                : 'bg-zinc-800 border border-gold/40 text-gold'
+                ? 'bg-[#FF5500] text-zinc-950'
+                : 'bg-zinc-800 border border-[#FF5500]/40 text-[#FF5500]'
             )}
           >
             {matchPercentage}% {matchLabel}
           </div>
         </div>
 
-        {/* Perfume Identity (Strict Latin Typography) */}
-        <div className="mt-4">
-          {rank && perfume.brand && (
-            <p className="font-latin text-xs font-semibold tracking-widest text-gold uppercase">
+        {/* Dynamic Transparent Perfume Bottle Stage with 3D Projected Label */}
+        <div className="my-3">
+          <PerfumeBottleDisplay
+            id={perfume.id}
+            name={perfume.name}
+            brand={perfume.brand}
+            isHero={!isCompact}
+          />
+        </div>
+
+        {/* Perfume Identity */}
+        <div className="mt-2 text-center sm:text-start">
+          {perfume.brand && (
+            <p className="font-latin text-xs font-bold tracking-widest text-[#FF5500] uppercase">
               {perfume.brand}
             </p>
           )}
           <h3
             className={clsx(
-              'font-latin font-bold tracking-tight text-zinc-50 group-hover:text-gold transition-colors',
-              isCompact ? 'text-lg mt-1' : 'text-xl sm:text-2xl mt-1'
+              'font-latin font-black tracking-tight text-white group-hover:text-[#FF5500] transition-colors',
+              isCompact ? 'text-lg mt-0.5' : 'text-xl sm:text-2xl mt-0.5'
             )}
           >
             {perfume.name}
           </h3>
         </div>
 
-        {/* Mandatory Kiosk Shelf Location Badge (PRD Section 4.2) */}
+        {/* Shelf Location Badge */}
         {perfume.shelf_location && (
-          <div className="mt-4 flex items-center gap-2 rounded-xl border border-amberAccent/40 bg-amberAccent/10 px-3.5 py-2 text-xs font-bold text-amber-300 shadow-sm">
-            <MapPin className="h-4 w-4 text-gold shrink-0 animate-bounce" />
+          <div className="mt-3.5 flex items-center gap-2 rounded-xl border border-amber-500/30 bg-amber-500/10 px-3.5 py-2 text-xs font-bold text-amber-300 shadow-sm">
+            <MapPin className="h-4 w-4 text-[#FF5500] shrink-0 animate-bounce" />
             <div className="flex flex-col sm:flex-row sm:items-center sm:gap-1.5">
               <span className="text-zinc-400 font-medium text-[11px]">{shelfLabel}</span>
-              <span className="text-gold tracking-wide">{perfume.shelf_location}</span>
+              <span className="text-white tracking-wide">{perfume.shelf_location}</span>
             </div>
           </div>
         )}
 
-        {/* Sensory Description */}
+        {/* Sensory Description (Tags hidden per user request) */}
         <p className="mt-3 text-xs leading-relaxed text-zinc-400 sm:text-sm">
           {description}
         </p>
-
-        {/* Tag Badges */}
-        {matchedTagIds.length > 0 && (
-          <div className="mt-4 flex flex-wrap gap-1.5">
-            {matchedTagIds.map((tagId) => {
-              const label = tagMap.get(tagId);
-              if (!label) return null;
-              return (
-                <span
-                  key={tagId}
-                  className="rounded-md bg-zinc-900 border border-zinc-800 px-2 py-0.5 text-[11px] font-medium text-zinc-300"
-                >
-                  {label}
-                </span>
-              );
-            })}
-          </div>
-        )}
       </div>
 
       {/* Price Footer */}
@@ -360,7 +347,7 @@ function KioskPerfumeCard({
           <span className="text-zinc-500 font-medium">
             {locale === 'ar' ? 'السعر' : 'Prix'}
           </span>
-          <span className="font-bold text-zinc-200">
+          <span className="font-bold text-white text-sm">
             {perfume.price} {locale === 'ar' ? 'د.ت' : 'TND'}
           </span>
         </div>
