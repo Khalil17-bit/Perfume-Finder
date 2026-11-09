@@ -557,6 +557,55 @@ body {
 }
 
 /* ==========================================================================
+   OPENING WEBSITE CINEMATIC REVEAL ANIMATIONS
+   ========================================================================== */
+@keyframes heroFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(22px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes flaconOpeningReveal {
+  0% {
+    opacity: 0;
+    filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.9)) blur(8px);
+  }
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0 14px 28px rgba(10, 5, 18, 0.85)) blur(0px);
+  }
+}
+
+.anim-reveal-hero {
+  animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.anim-delay-1 {
+  animation-delay: 0.1s;
+}
+
+.anim-delay-2 {
+  animation-delay: 0.22s;
+}
+
+.anim-delay-3 {
+  animation-delay: 0.36s;
+}
+
+.anim-delay-4 {
+  animation-delay: 0.5s;
+}
+
+#interactive-flacon-wrapper.is-opening .flacon-image {
+  animation: flaconOpeningReveal 1s cubic-bezier(0.16, 1, 0.3, 1) both 0.25s;
+}
+
+/* ==========================================================================
    THE 2D PERFUME BOTTLE (STANDALONE SCROLL-ORCHESTRATED FLACON)
    ========================================================================== */
 #interactive-flacon-wrapper {
@@ -574,6 +623,11 @@ body {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   contain: layout;
+  opacity: 0; /* Hidden initially until geometry is accurately calculated to prevent top-left teleportation flash */
+}
+
+#interactive-flacon-wrapper.is-ready {
+  opacity: 1;
 }
 
 /* Guard: The movable flacon does not resize or animate on hover */
@@ -1098,11 +1152,9 @@ body {
 /* The 4-Column Modular Grid */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
   position: relative;
-  content-visibility: auto;
-  contain-intrinsic-size: 800px;
 }
 
 .product-card {
@@ -1113,9 +1165,6 @@ body {
   background: #18181c;
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.12), 0 12px 30px rgba(0, 0, 0, 0.6);
-  contain: layout style paint;
-  content-visibility: auto;
-  contain-intrinsic-size: 440px;
   transform: translateZ(0);
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
@@ -1650,7 +1699,7 @@ body {
    ========================================================================== */
 @media (max-width: 1100px) {
   .product-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 20px;
   }
   .perks-grid {

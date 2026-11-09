@@ -808,6 +808,9 @@ export default function LavaLandingClient() {
     cacheGeometry();
     updateFrame();
 
+    // Mark flacon ready & trigger cinematic opening reveal
+    flaconWrapper.classList.add('is-ready', 'is-opening');
+
     // Re-run geometry cache slightly after mount to ensure web fonts / images settled
     const settleTimer = setTimeout(() => {
       updateFrame();
@@ -1011,7 +1014,7 @@ export default function LavaLandingClient() {
 
           <div className="hero-content-left">
             {/* Rotating Avatar Muse Badge */}
-            <div className="badge-avatar-wrap">
+            <div className="badge-avatar-wrap anim-reveal-hero anim-delay-1">
               <img
                 src="/lava-assets/assets/avatar_muse.webp"
                 alt="LAVA Fragrance Muse"
@@ -1036,7 +1039,7 @@ export default function LavaLandingClient() {
             </div>
 
             {/* 28% OFF Promo Badge */}
-            <div className="promo-badge-row">
+            <div className="promo-badge-row anim-reveal-hero anim-delay-1">
               <div className="promo-tag">
                 <span className="badge-dot"></span>
                 <span>28% OFF</span>
@@ -1047,7 +1050,7 @@ export default function LavaLandingClient() {
             </div>
 
             {/* Headline */}
-            <h1 className="hero-headline">
+            <h1 className="hero-headline anim-reveal-hero anim-delay-2">
               Unleash Your
               <br />
               Inner Fire.
@@ -1064,13 +1067,13 @@ export default function LavaLandingClient() {
             ></div>
 
             {/* Description */}
-            <p className="hero-description">
+            <p className="hero-description anim-reveal-hero anim-delay-3">
               LAVA is more than a fragrance. It&apos;s a statement of sophistication and passion, a
               tribute to the beautiful moments that define you.
             </p>
 
             {/* CTA & Social Proof */}
-            <div className="hero-cta-row">
+            <div className="hero-cta-row anim-reveal-hero anim-delay-4">
               <button
                 type="button"
                 className="btn-explore trigger-quiz"
