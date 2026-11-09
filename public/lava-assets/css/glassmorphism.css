@@ -1,0 +1,228 @@
+/* ==========================================================================
+   LAVA PARFUMS - GPU-SAFE GLASSMORPHISM & LIQUID AESTHETICS
+   Ultra-optimized lightweight glass shaders, reduced GPU passes, and 60 FPS fallbacks
+   ========================================================================== */
+
+:root {
+  --glass-bg-primary: rgba(22, 22, 26, 0.70);
+  --glass-bg-secondary: rgba(16, 16, 19, 0.85);
+  --glass-bg-card: rgba(24, 24, 28, 0.80);
+  --glass-bg-pill: rgba(255, 255, 255, 0.06);
+  --glass-bg-pill-hover: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-border-highlight: rgba(255, 94, 30, 0.50);
+  --glass-border-glow: rgba(255, 94, 30, 0.60);
+  
+  /* iOS 18 latest frosted glass shaders */
+  --glass-blur-sm: blur(12px);
+  --glass-blur-md: blur(20px);
+  --glass-blur-lg: blur(24px);
+  
+  --shadow-glass-subtle: 0 4px 20px 0 rgba(0, 0, 0, 0.6);
+  --shadow-glass-elevated: 0 12px 36px 0 rgba(0, 0, 0, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+  --shadow-flacon-glow: 0 16px 45px rgba(255, 94, 30, 0.40), 0 0 70px rgba(255, 94, 30, 0.25);
+  --shadow-branch-contact: 0 12px 24px rgba(0, 0, 0, 0.95);
+}
+
+/* Glass Card */
+.glass-card {
+  background: linear-gradient(135deg, rgba(28, 28, 33, 0.85) 0%, rgba(18, 18, 22, 0.92) 100%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.14), 0 8px 24px rgba(0, 0, 0, 0.5);
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: transform 0.15s ease-out, border-color 0.15s ease-out, box-shadow 0.15s ease-out;
+}
+
+.glass-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.25), transparent);
+  pointer-events: none;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 94, 30, 0.40);
+  box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.2), 0 12px 32px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 94, 30, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Glass Pill Badge */
+.glass-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  color: #fff;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  transform: translateZ(0);
+  transition: transform 0.1s ease-out, background-color 0.1s ease-out, border-color 0.1s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.glass-pill:hover {
+  background: var(--glass-bg-pill-hover);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+}
+
+/* Floating Glass Video Card (reference image match - GPU safe blur) */
+.glass-video-card {
+  background: rgba(22, 22, 26, 0.78);
+  backdrop-filter: blur(12px) saturate(180%);
+  -webkit-backdrop-filter: blur(12px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.15), 0 10px 24px rgba(0, 0, 0, 0.65);
+  border-radius: 20px;
+  padding: 12px;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  transition: transform 0.12s ease-out, border-color 0.12s ease-out;
+}
+
+.glass-video-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 94, 30, 0.5);
+}
+
+/* Glass Play Button */
+.glass-play-btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1024;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  border: none;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.12s ease-out, background-color 0.12s ease-out;
+}
+
+.glass-play-btn:hover {
+  transform: scale(1.08);
+  background: #ffffff;
+  color: #5c3c61;
+}
+
+.glass-play-btn svg {
+  margin-left: 2px;
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+/* Ambient Radial Glows (Static, zero reflow overhead) */
+.glow-orb {
+  display: none !important;
+}
+
+/* Glass Modal Overlay - HIDDEN by default so 0 GPU blur passes occur while closed */
+.glass-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(9, 9, 11, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateZ(0);
+  transition: opacity 0.16s ease-out, visibility 0.16s ease-out;
+}
+
+.glass-modal-backdrop.active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.glass-modal-panel {
+  background: rgba(24, 24, 28, 0.98);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 28px;
+  box-shadow: inset 0 1px 0.5px rgba(255, 255, 255, 0.15), 0 25px 70px rgba(0, 0, 0, 0.9), 0 0 40px rgba(255, 94, 30, 0.15);
+  width: 100%;
+  max-width: 680px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  transform: scale(0.97);
+  backface-visibility: hidden;
+  transition: transform 0.16s ease-out;
+  padding: 32px;
+}
+
+.glass-modal-backdrop.active .glass-modal-panel {
+  transform: scale(1);
+}
+
+/* Rotating Text Ring Animation */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-infinite {
+  animation: spinSlow 24s linear infinite;
+  transform: translateZ(0);
+}
+
+.rotate-infinite:hover {
+  animation-play-state: paused;
+}
+
+/* High-Efficiency Fallback for Low-Power & Reduced Motion Modes */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .glass-card,
+  .glass-pill,
+  .glass-video-card,
+  .glass-modal-backdrop {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+
+  .glass-card {
+    background: rgba(24, 24, 28, 0.95);
+  }
+
+  .glass-video-card {
+    background: rgba(22, 22, 26, 0.95);
+  }
+
+  .glass-modal-panel {
+    background: #18181c;
+  }
+}
